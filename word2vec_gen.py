@@ -19,11 +19,11 @@ class wordvec(object):
  
 if __name__ == '__main__':
     print("word2vec done")
-    data_path = "data\\sci_sample.csv"
+    data_path = "data/corpus.txt"
 
     sentences = wordvec(data_path)
     model = Word2Vec(sentences)
-    print(model.most_similar('A', topn=5))
+    print(model.most_similar('oxygen', topn=10))
     # saving the model - optional
     # model.save("data/model/word2vec_gensim")
     # model.wv.save_word2vec_format("data/model/word2vec_org",
