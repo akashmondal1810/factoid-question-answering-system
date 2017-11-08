@@ -34,7 +34,8 @@ english_stemmer = PorterStemmer()
 class Featurizer:
     def __init__(self):
         # Count vector is giving better accuracy then tfidf
-        self.vectorizer = CountVectorizer()
+        self.vectorizer = CountVectorizer(lowercase=False,
+                                            analyzer = 'word')
         # self.vectorizer = TfidfVectorizer(lowercase=False)
 
     def train_feature(self, examples):
