@@ -42,8 +42,9 @@ if __name__ == "__main__":
 
     train = list(DictReader(open("data/sci_train.csv", 'r')))
     # test = list(DictReader(open("data/sci_test.csv", 'r')))
+    # sample = list(DictReader(open("data/sci_sample.csv", 'r')))
     train = shuffle(train);
-    # print("Total length: ", len(train))
+    print("Total length: ", len(train))
     test = train[-int(len(train)*(1.0 - n)):]
     train = train[:int(len(train)*n)]
 
@@ -56,38 +57,51 @@ if __name__ == "__main__":
         if not line[kTARGET_FIELD] in labels:
             labels.append(line[kTARGET_FIELD])
 
-    test_labels = []
-    for line in test:
-        if not line[kTARGET_FIELD] in test_labels:
-            test_labels.append(line[kTARGET_FIELD])
+    print(len(labels))
+
+
+    # test_labels = []
+    # for line in test:
+    #     if not line[kTARGET_FIELD] in test_labels:
+    #         test_labels.append(line[kTARGET_FIELD])
    
        
     lablelist =["A","B","C","D"]
 
     x_train = feat.train_feature(x[kTEXT_FIELD] + ' ' + x["answer" + i]
                                  for i in lablelist for x in train)
-    # print("new total x_train length",x_train.shape[1])
+    print("new total x_train length",x_train.shape[0])
 
-    x_test = feat.test_feature(x[kTEXT_FIELD] + ' ' + x["answer" + i] 
-                                for i in lablelist for x in test)
-    # print("new total x_test length",x_test.shape[1])
 
     
-    # Assigining 1 to correct answer and 0 to wrong answer
-    y_train =array(list("1" if x["answer" + x[kTARGET_FIELD]] == x["answer" + i] else "0" 
-                            for i in lablelist for x in train))    
-    # print("new total y_train length",y_train.shape[0])
+    x_test = feat.test_feature(x[kTEXT_FIELD] + ' ' + x["answer" + i] 
+                                for i in lablelist for x in test)
+    print("new total x_test length",x_test.shape[0])
 
-    y_test = array(list("1" if x["answer" + x[kTARGET_FIELD]] == x["answer" + i] else "0" 
+
+    # Assigining 1 to correct answer and 0 to wrong answer
+    
+
+    # y_train = array(list(labels.index(x[kTARGET_FIELD])
+    #                      for x in train))
+
+    y_train =array(list(1 if x["answer" + x[kTARGET_FIELD]] == x["answer" + i] else 0 
+                            for i in lablelist for x in train))    
+    print("new total y_train length",y_train.shape[0])
+
+    y_test = array(list(1 if x["answer" + x[kTARGET_FIELD]] == x["answer" + i] else 0 
                             for i in lablelist for x in test))
+    
+    # y_test = array(list(1 if x[kTARGET_FIELD] else 0  for x in sample))
     # print("new total y_test length",y_test.shape[0])
 
+    print(y_train)
     print("Training started...")
 
     lr = LogisticRegression(C=1, penalty='l2', fit_intercept=True)
     lr.fit(x_train, y_train)
 
-    predictions = lr.predict(x_test);
+    # predictions = lr.predict(x_test);
 
     accuracy = 100.0 * sklearn.metrics.accuracy_score(y_train, lr.predict(x_train));
     print("Log Reg training :")
@@ -97,4 +111,13 @@ if __name__ == "__main__":
     print("Log Reg Validation:")
     print(accuracy_val)
 
+
+    predictions = lr.predict(x_test)
+    o = DictWriter(open("testpredictions.csv", 'w'), ["id", "correctAnswer"])
+    o.writeheader()
+    for ii, pp in zip([x['id'] for x in test], predictions):
+        d = {'id': ii, 'correctAnswer': labels[pp]}
+        o.writerow(d)
+
     
+        
