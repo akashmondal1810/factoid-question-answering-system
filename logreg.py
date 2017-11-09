@@ -14,6 +14,7 @@ from nltk.tokenize.util import regexp_span_tokenize
 from nltk.tokenize import RegexpTokenizer
 from sklearn.linear_model import LogisticRegression
 from sklearn import linear_model
+from sklearn.utils import shuffle
 
 kTARGET_FIELD = 'correctAnswer'
 kTEXT_FIELD = 'question'
@@ -23,19 +24,10 @@ kB = 'answerB'
 kC = 'answerC'
 kD = 'answerD'
 
-english_stemmer = PorterStemmer()
-
-# class TryTokenizer(object):
-#     def __init__(self):
-#         self.tokenizer = RegexpTokenizer(r'\w+')
-#     def __call__(self, doc):
-#         return [english_stemmer.stem(token) for token in doc]
-
 class Featurizer:
     def __init__(self):
-        # Count vector is giving better accuracy then tfidf
-        self.vectorizer = CountVectorizer(lowercase=False,
-                                            analyzer = 'word')
+        self.vectorizer = CountVectorizer()#lowercase=False)
+                                            #analyzer = 'word')
         # self.vectorizer = TfidfVectorizer(lowercase=False)
 
     def train_feature(self, examples):
@@ -46,11 +38,17 @@ class Featurizer:
 
 if __name__ == "__main__":
 
+    n = 0.7  # train validation split
+
     train = list(DictReader(open("data/sci_train.csv", 'r')))
     # test = list(DictReader(open("data/sci_test.csv", 'r')))
-    # testing and training on 10 % of the data
-    test = train[-int(len(train)*0.1):]
-    train = train[:-int(len(train)*0.1)]
+    train = shuffle(train);
+    # print("Total length: ", len(train))
+    test = train[-int(len(train)*(1.0 - n)):]
+    train = train[:int(len(train)*n)]
+
+    # print("Length of train: ", len(train), " test: ", len(test))
+    # print("% train vs test:", len(train)/(len(train) + len(test)))
     feat = Featurizer()
 
     labels = []
@@ -62,26 +60,31 @@ if __name__ == "__main__":
     for line in test:
         if not line[kTARGET_FIELD] in test_labels:
             test_labels.append(line[kTARGET_FIELD])
-
-
-    print("Label set: %s" % str(labels))
-
-
    
-    x_train = feat.train_feature(x[kTEXT_FIELD] + ' ' + x[kTARGET_FIELD] + ' ' + x[kA] + ' ' + x[kB] + ' ' + x[kC] + ' ' + x[kD] for x in train)
-    x_test = feat.test_feature(x[kTEXT_FIELD] + ' ' + x[kTARGET_FIELD] + ' ' + x[kA] + ' ' + x[kB] + ' ' + x[kC] + ' ' + x[kD] for x in test)
+       
+    lablelist =["A","B","C","D"]
 
-    y_train = array(list(labels.index(x[kTARGET_FIELD])
-                         for x in train))
-    y_test = array(list(test_labels.index(x[kTARGET_FIELD])
-                         for x in test))
+    x_train = feat.train_feature(x[kTEXT_FIELD] + ' ' + x["answer" + i]
+                                 for i in lablelist for x in train)
+    # print("new total x_train length",x_train.shape[1])
 
-    # print(len(train), len(y_train))
-    # print(set(y_train))
+    x_test = feat.test_feature(x[kTEXT_FIELD] + ' ' + x["answer" + i] 
+                                for i in lablelist for x in test)
+    # print("new total x_test length",x_test.shape[1])
 
-    lr = LogisticRegression(C=1,
-                                penalty='l1',
-                                fit_intercept=True)
+    
+    # Assigining 1 to correct answer and 0 to wrong answer
+    y_train =array(list("1" if x["answer" + x[kTARGET_FIELD]] == x["answer" + i] else "0" 
+                            for i in lablelist for x in train))    
+    # print("new total y_train length",y_train.shape[0])
+
+    y_test = array(list("1" if x["answer" + x[kTARGET_FIELD]] == x["answer" + i] else "0" 
+                            for i in lablelist for x in test))
+    # print("new total y_test length",y_test.shape[0])
+
+    print("Training started...")
+
+    lr = LogisticRegression(C=1, penalty='l2', fit_intercept=True)
     lr.fit(x_train, y_train)
 
     predictions = lr.predict(x_test);
