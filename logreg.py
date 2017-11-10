@@ -69,6 +69,7 @@ if __name__ == "__main__":
     #     if not line[kTARGET_FIELD] in test_labels:
     #         test_labels.append(line[kTARGET_FIELD])
 
+    #model = w2v('data/wiki_corpus.txt')
     model = w2v()
 
     # Assigining 1 to correct answer and 0 to wrong answer

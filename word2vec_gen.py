@@ -20,7 +20,7 @@ class wordvec(object):
 
 
 class w2v():
-    def __init__(self, data_path="data/corpus.txt"):  # "data/corpus.txt"):
+    def __init__(self, data_path="data/full_corpus.txt"):  # "data/corpus.txt"):
         # Train the model
         self.size = 100
         sentences = wordvec(data_path)
