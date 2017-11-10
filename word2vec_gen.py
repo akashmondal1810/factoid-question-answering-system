@@ -20,7 +20,7 @@ class wordvec(object):
 
 
 class w2v():
-    def __init__(self, data_path="data/corpus.txt"):
+    def __init__(self, data_path="data/corpus.txt"):  # "data/corpus.txt"):
         # Train the model
         self.size = 100
         sentences = wordvec(data_path)
@@ -28,7 +28,7 @@ class w2v():
         self.model = Word2Vec(sentences, size=self.size,
                               window=5, min_count=5, workers=4)
         self.vocab = list(self.model.wv.vocab.keys())
-        self.null = np.zeros(self.size)
+        self.null = np.float64(np.zeros(self.size))
 
         self.stemmer = SnowballStemmer("english")
         self.stopwords = set(stopwords.words('english'))
@@ -43,18 +43,18 @@ class w2v():
         word = self.stemmer.stem(word)
 
         if word in self.vocab:
-            return self.model[word]
+            return np.float64(self.model[word])
         else:
             return self.null
 
-    def sv(self, line):
-        word_list = line.split()
+    def sv(self, sline):
+        word_list = sline.split()
         N = len(word_list)
         v = self.null
         if N == 0:
             return v
         for word in word_list:
-            v += (1.0 / N) * self.wv(word)
+            v = v + np.multiply(self.wv(word), (1.0 / N))
         return v
 
 
