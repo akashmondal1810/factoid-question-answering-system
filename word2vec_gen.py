@@ -20,13 +20,17 @@ class wordvec(object):
 
 
 class w2v():
-    def __init__(self, data_path="data/full_corpus.txt"):  # "data/corpus.txt"):
+    def __init__(self, data_path="data/wiki_corpus.txt", load_data=False, old_data="data/word2vec.dat"):
         # Train the model
         self.size = 100
         sentences = wordvec(data_path)
 
-        self.model = Word2Vec(sentences, size=self.size,
-                              window=5, min_count=5, workers=4)
+        if not load_data:
+            self.model = Word2Vec(sentences, size=self.size,
+                                  window=5, min_count=5, workers=4)
+        else:
+            self.model = Word2Vec.load(old_data)
+            
         self.vocab = list(self.model.wv.vocab.keys())
         self.null = np.float64(np.zeros(self.size))
 

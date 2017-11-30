@@ -1,11 +1,3 @@
-# Processes sentences from training data:
-#   - removes stopwords
-#   - stems words
-
-# Also creates a file listing all words in the vocabulary and their
-# frequency in the corpus. (To be changed.)
-
-
 from csv import DictReader, DictWriter
 from collections import defaultdict
 
@@ -38,14 +30,17 @@ if __name__ == "__main__":
 
     # Cast to list to keep it all in memory
     corpus_file = open("data/wiki_corpus.txt", 'w')
-    cat_file = open("data/categories.csv", 'r')
+    cat_file = open("data/categories.txt", 'r')
+    final_cat_file = open("data/wiki_categories.txt", 'w')
 
     sp = sentence_parser()
 
     all_cats = []
+    cat_file.readline()
+    
     for line in cat_file:
-        words = line.split(',')
-        all_cats.append(words[0])
+        cat = line.strip()
+        all_cats.append(cat)
 
     cat_file.close()
 
@@ -55,27 +50,36 @@ if __name__ == "__main__":
 
     for cat in all_cats:
         print(cat)
+        sents = []
 
         try:
             sents = sent_tokenize(wikipedia.summary(cat))
 
-            for s in sents:
-                if len(s) < 5:
-                    continue
+        except:
+            try:
+               sents = sent_tokenize(wikipedia.summary(cat, auto_suggest=False))
+
+            except:
+                track['f'] += 1
+                missing.append(cat)
+                continue
                 
-                text = sp.wiki_sub(s.strip(),cat)
-                text = sp.parse_sentence(text)
-                corpus_file.write(' '.join(text) + '\n')
-                num_sent += 1
-                
-            track['s'] += 1
+        for s in sents:
+            if len(s) < 5:
+                continue
+            
+            text = sp.wiki_sub(s.strip(),cat)
+            text = sp.parse_sentence(text)
+            corpus_file.write(' '.join(text) + '\n')
+            num_sent += 1
+            
+        track['s'] += 1
+        final_cat_file.write(cat + "\n")
 
 ##        except:
 ##            print("Unexpected error:", sys.exc_info()[0])
 ##            raise
-        except:
-            track['f'] += 1
-            missing.append(cat)
+        
 
     print("Success: " + str(track['s']))
     print("Fail: " + str(track['f']))
@@ -85,3 +89,4 @@ if __name__ == "__main__":
 ##    print(all_cats)
 
     corpus_file.close()
+    final_cat_file.close()

@@ -45,7 +45,7 @@ if __name__ == "__main__":
 
     n = 0.7  # train validation split
 
-    train = list(DictReader(open("data/sci_train.csv", 'r')))
+    train = list(DictReader(open("data/filtered_train.csv", 'r')))
     # test = list(DictReader(open("data/sci_test.csv", 'r')))
     # sample = list(DictReader(open("data/sci_sample.csv", 'r')))
     train = shuffle(train)

@@ -115,8 +115,8 @@ if __name__ == "__main__":
     test = list(DictReader(open("data/sci_test.csv", 'r')))
 
     corpus_file = open("data/corpus.txt", 'w')
-    vocab_file = open("data/vocab.csv", 'w')
-    cat_file = open("data/categories.csv", 'w')
+    vocab_file = open("data/vocab.txt", 'w')
+    cat_file = open("data/categories.txt", 'w')
 
 ##    print(len(train))
 ##    print(len(test))
@@ -187,10 +187,10 @@ if __name__ == "__main__":
     
     # write vocab to file
     for w in vocab:
-        vocab_file.write(w + ',' + str(vocab_count[w]['total']) + '\n')
+        vocab_file.write(w + '\n')
 
     for cat in all_cats:
-        cat_file.write(cat + ',' + str(categories[cat]) + '\n')
+        cat_file.write(cat + '\n')
 
     vocab_file.close()
     corpus_file.close()
