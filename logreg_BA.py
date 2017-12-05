@@ -19,32 +19,68 @@ kC = 'answerC'
 kD = 'answerD'
 
 
-def form_vector(question, answer):
-    return np.hstack((model.sv(question), model.sv(answer)))
-    
+class lr_classifier():
 
-def form_all_vectors(data):
-    label_list = ["A", "B", "C", "D"]
-    x_train = []
-    y_train = []
-    for x in data:
-        for label in label_list:
-            alabel = 'answer' + label
-            v = form_vector(x[kTEXT_FIELD], x[alabel])
-            x_train.append(v)
+    def __init__(self, c=1, pen='l2'):
+        self.lr = LogisticRegression(C=c, penalty=pen)
 
-            if label == x['correctAnswer']:
-                y_train.append(1)
+
+    def form_vector(self, question, answer):
+        return np.hstack((model.sv(question), model.sv(answer)))
+        
+
+    def form_all_vectors(self, data):
+        label_list = ["A", "B", "C", "D"]
+        x_train = []
+        y_train = []
+        for x in data:
+            for label in label_list:
+                alabel = 'answer' + label
+                v = self.form_vector(x[kTEXT_FIELD], x[alabel])
+                x_train.append(v)
+
+                if label == x['correctAnswer']:
+                    y_train.append(1)
+                else:
+                    y_train.append(0)
+
+        return x_train, y_train
+
+
+    def train(self, x_train, y_train):
+        self.lr.fit(x_train, y_train)
+
+    def predict(self, x_test):
+        predictions = []
+
+        true_ind = np.argmax(self.lr.classes_)
+        
+        for i in range(0,len(x_test),4):
+            X = x_test[i:i+4]
+            p = self.lr.predict_proba(X)
+            p = p[:,[true_ind]]
+
+            predictions.append(np.argmax(p))
+
+        return predictions
+        
+
+    def test(self, x_test, y_test):
+        success = 0
+        failure = 0
+
+        predictions = self.predict(x_test)
+        
+        for i in range(0,test_len):
+            ans = predictions[i]
+
+            if y_test[4*i+ans] == 1:
+                success += 1
             else:
-                y_train.append(0)
+                failure += 1
 
+        return [success, failure]
 
-    # x_train = [
-    #     for i in lablelist for x in data]
-    # # print("new total x_train length", x_train.shape[0])
-    # y_train = array(list(1 if x["answer" + x[kTARGET_FIELD]] == x["answer" + i] else 0
-    #                      for i in lablelist for x in data))
-    return x_train, y_train
 
 
 if __name__ == "__main__":
@@ -67,23 +103,6 @@ if __name__ == "__main__":
     
     print("Train size: ", train_len)
     print("Test size: ", test_len)
-    #test = train
-    #train = extra_train
-
-    # print("Length of train: ", len(train), " test: ", len(test))
-    # print("% train vs test:", len(train)/(len(train) + len(test)))
-
-    # labels = []
-    # for line in train:
-    #     if not line[kTARGET_FIELD] in labels:
-    #         labels.append(line[kTARGET_FIELD])
-
-    # labels = sorted(labels)
-
-    # test_labels = []
-    # for line in test:
-    #     if not line[kTARGET_FIELD] in test_labels:
-    #         test_labels.append(line[kTARGET_FIELD])
 
     print("Training word2vec...")
 
@@ -96,50 +115,26 @@ if __name__ == "__main__":
         model.model.save(filepath)
         print("New word2vec data created.")
 
+
+    lr = lr_classifier()
+
     print("Forming vectors...")
-    # Assigining 1 to correct answer and 0 to wrong answer
-    x_train, y_train = form_all_vectors(train)
-    # print("new total x_train length", x_train.shape[0])
+    x_train, y_train = lr.form_all_vectors(train)
+    x_test, y_test = lr.form_all_vectors(test)
 
-    x_test, y_test = form_all_vectors(test)
-    # print("new total x_test length", x_test.shape[0])
 
-    # print(y_train)
     print("Training logreg...")
 
-    lr = LogisticRegression(C=1, penalty='l2', fit_intercept=True)
-    lr.fit(x_train, y_train)
+    lr.train(x_train, y_train)
+    [success, failure] = lr.test(x_train, y_train)
+    accuracy_train = success / (success + failure) * 100
 
-    accuracy = 100.0 * \
-        sklearn.metrics.accuracy_score(y_train, lr.predict(x_train))
     print("Log Reg training :")
-    print(accuracy)
+    print(accuracy_train)
 
-
-    success = 0
-    failure = 0
-    true_ind = np.argmax(lr.classes_)
-    
-    for i in range(0,4*test_len,4):
-        X = x_test[i:i+4]
-        p = lr.predict_proba(X)
-        p = p[:,[true_ind]]
-
-        #print(i)
-        #print(p)
-
-        ans = np.argmax(p)
-        #print(i+ans)
-        if y_test[i+ans] == 1:
-            success += 1
-        else:
-            failure += 1
-
-    
-
-#    accuracy_val = 100.0 * \
-#        sklearn.metrics.accuracy_score(y_test, lr.predict(x_test))
+    [success, failure] = lr.test(x_test, y_test)
     accuracy_val = success / (success + failure) * 100
+    
     print("Log Reg Validation:")
     print(accuracy_val)
 
@@ -147,8 +142,8 @@ if __name__ == "__main__":
 
     # print(predictions[:10])
 
-    o = DictWriter(open("data/testpredictions.csv", 'w'), ["id", "correctAnswer"])
-    o.writeheader()
-    for ii, pp in zip([x['id'] for x in test], predictions):
-        d = {'id': ii, 'correctAnswer': pp}
-        o.writerow(d)
+##    o = DictWriter(open("data/testpredictions.csv", 'w'), ["id", "correctAnswer"])
+##    o.writeheader()
+##    for ii, pp in zip([x['id'] for x in test], predictions):
+##        d = {'id': ii, 'correctAnswer': pp}
+##        o.writerow(d)

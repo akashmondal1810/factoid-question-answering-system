@@ -5,7 +5,6 @@ exampl line segment unit length line segment length 1
 number e mathemat constant approxim equal 2 71828 appear mani differ set throughout mathemat
 2 ( number ) discov swiss mathematician jacob bernoulli studi compound interest e aris limit 1 1 n n n approach infin
 number e also calcul sum infinit seri e n 0 1 n
-1 1 1 1 1 1 2 1 1 2 3 displaystyl e displaystyl sum limit n 0 infti dfrac 1 n
 frac 1 1 frac 1 1 frac 1 1 cdot 2 frac 1 1 cdot 2 cdot 3 cdot also call euler number swiss mathematician leonhard euler e differ γ euler mascheroni constant sometim call simpli euler constant
 occasion number e term napier constant euler choic symbol e said retain honor
 number e emin import mathemat alongsid 0 1 π
@@ -22,8 +21,8 @@ view e uniqu number whose natur logarithm equal one
 natur number follow 2 preced 4
 4 four number numer glyph
 natur number follow 3 preced 5
-number 5 fifth album american rock band steve miller band releas 1970
-5 ( number ) last steve miller band album featur origin drummer tim davi
+5 five number numer glyph
+natur number follow 4 preced 6
 chemistri physic avogadro constant name scientist amedeo avogadro number constitu particl usual atom molecul contain amount substanc given one mole
 thus 6 ( number ) proport factor relat molar mass compound mass sampl
 avogadro constant often design symbol na l valu 6 022140857 74 1023 mol 1 intern system unit si
@@ -1259,7 +1258,6 @@ avogadro constant revis base set si unit necessit redefinit concept chemic quant
 avogadro number definit deprec favor avogadro constant definit
 chang si unit propos fix valu constant exact 6 02214x 1023 express unit mol 1 x end number mean one final digit yet agre upon
 mathemat axiom choic ac axiom set theori equival statement cartesian product collect non empti set non empti
-state everi index famili displaystyl nonempti set exist index famili x displaystyl x element x displaystyl x everi displaystyl
 axiom choic formul 1904 ernst zermelo order formal proof well order theorem
 inform put axiom choic say given collect bin contain least one object possibl make select exact one object bin
 mani case select made without invok axiom choic particular case number bin finit select rule avail distinguish properti happen hold exact one object bin
@@ -1304,7 +1302,6 @@ azeotrop azeotrop approxim composit 68 nitric acid 32 water mass boil point 393 
 azid anion formula n 3
 azid conjug base hydrazo acid hn3
 azid n 3 linear anion isoelectron co2 nco n2o 2 ncf
-per valenc bond theori azid describ sever reson structur import azid n n n displaystyl ce n overset n n
 azid also function group organ chemistri rn3
 azid domin applic azid propel air bag
 b cell also known b lymphocyt type white blood cell lymphocyt subtyp
@@ -1510,7 +1507,6 @@ give net forc volum acceler bernoulli 's principl along streamlin
 fluid particl subject pressur bernoulli 's principl weight
 fluid flow horizont along section streamlin speed increas bernoulli 's principl fluid section move region higher pressur region lower pressur speed decreas move region lower pressur region higher pressur
 bernoulli 's principl consequ within fluid flow horizont highest speed occur pressur lowest lowest speed occur pressur highest
-bessel function first defin mathematician daniel bernoulli general friedrich bessel canon solut x displaystyl x bessel differenti equat x 2 2 x 2 x x x 2 α 2 0 displaystyl x 2 frac 2 dx 2 x frac dy dx x 2 alpha 2 0 arbitrari complex number α order bessel function
 although α α produc differenti equat real α convent defin differ bessel function two valu way bessel function most smooth function α
 bessel function import case α integ half integ
 bessel function integ α also known cylind function cylindr harmon appear solut laplac equat cylindr coordin
@@ -1666,7 +1662,6 @@ us european public opinion poll blue popular colour chosen almost half men women
 blue survey also show blue colour associ masculin ahead black also colour associ intellig knowledg calm concentr
 boltzmann constant kb k name ludwig boltzmann physic constant relat averag kinet energi particl gas temperatur gas
 gas constant r divid avogadro constant na k r n
-displaystyl k frac r n text boltzmann constant dimens energi divid temperatur entropi
 2017 boltzmann constant valu si unit measur quantiti
 boltzmann constant recommend valu 2015 standard uncertainti bracket 1 38064852 79 10 23 j k
 current measur boltzmann constant depend definit kelvin term tripl point water
@@ -1676,7 +1671,7 @@ bone bone rigid organ constitut part vertebr skeleton
 bone bone support protect various organ bodi produc red white blood cell store miner provid structur support bodi enabl mobil
 bone bone come varieti shape size complex intern extern structur
 bone lightweight yet strong hard serv multipl function
-bone tissu hard tissu type dens connect tissu
+bone tissu osseous tissu hard tissu type dens connect tissu
 bone honeycomb like matrix intern help give bone rigid
 bone tissu made differ type bone cell
 bone osteoblast osteocyt involv format miner bone osteoclast involv resorpt bone tissu
@@ -1690,12 +1685,10 @@ latin word bone os henc mani term use bone prefix osseous osteopathi
 quantum chemistri molecular physic born oppenheim bo approxim assumpt motion atom nuclei electron molecul separ
 approach name max born j robert oppenheim
 mathemat term born-oppenheim approxim allow wavefunct molecul broken electron nuclear vibrat rotat compon
-ψ l ψ e l e c r n c ψ n u c l e r displaystyl psi mathrm total psi mathrm electron time psi mathrm nuclear comput energi wavefunct averag size molecul simplifi approxim
 born-oppenheim approxim exampl benzen molecul consist 12 nuclei 42 electron
 time independ schrödinger equat must solv obtain energi wavefunct born-oppenheim approxim molecul partial differenti eigenvalu equat 162 variabl spatial coordin electron nuclei
 bo approxim make possibl comput wavefunct two less complic consecut step
 approxim propos 1927 earli period quantum mechan born oppenheim still indispens quantum chemistri
-first step bo approxim electron schrödinger equat solv yield wavefunct ψ electron displaystyl psi text electron depend electron
 benzen born-oppenheim approxim wavefunct depend 126 electron coordin
 born-oppenheim approxim solut nuclei fix certain configur often equilibrium configur
 effect quantum mechan nuclear motion studi instanc vibrat spectrum requir born-oppenheim approxim electron comput must nuclear coordin
@@ -1706,7 +1699,6 @@ even case bo approxim break use point departur comput
 born-oppenheim approxim electron energi consist kinet energi interelectron repuls internuclear repuls electron nuclear attract
 born-oppenheim approxim accord hellmann feynman theorem nuclear potenti taken averag electron configur sum electron nuclear internuclear electr potenti
 molecular spectroscopi ratio period electron vibrat rotat energi relat scale order thousand born oppenheim name also attach approxim energi compon treat separ
-e l e e l e c r n c e v b r n l e r n l e n u c l e r displaystyl e mathrm total e mathrm electron e mathrm vibrat e mathrm rotat e mathrm nuclear nuclear spin energi small born-oppenheim approxim normal omit
 boron chemic element symbol b atom number 5
 produc entir cosmic ray spallat supernova stellar nucleosynthesi boron low abund element solar system earth crust
 boron concentr earth water solubl common natur occur compound borat miner
@@ -1824,7 +1816,6 @@ ph chang littl small amount strong acid base ad buffer solut
 buffer solut use mean keep ph near constant valu wide varieti chemic applic
 buffer solut natur mani system use buffer ph regul
 buffer solut exampl bicarbon buffer system use regul ph blood
-bulk modulus k displaystyl k b displaystyl b substanc measur incompress resist compress substanc
 bulk modulus defin ratio infinitesim pressur increas result relat decreas volum
 butan organ compound formula c4h10 alkan four carbon atom
 butan gas room temperatur atmospher pressur
@@ -1900,8 +1891,7 @@ caffein produc mild form drug depend associ withdraw symptom sleepi headach irri
 toler autonom effect increas blood pressur heart rate increas urin output develop chronic use e caffein symptom becom less pronounc occur follow consist use
 caffein classifi us food drug administr general recogn safe gras
 caffein toxic dose 10 gram per day adult much higher typic dose 500 milligram per day
-cup coffe contain 80 175 mg caffein depend bean seed use caffein prepar e g
-caffein drip percol espresso
+cup coffe contain 80 175 mg caffein depend bean seed use caffein prepar e g drip percol espresso
 thus caffein requir rough 50 100 ordinari cup coffe reach lethal dose
 caffein howev pure powder caffein avail dietari supplement lethal tablespoon size amount
 calcit carbon miner stabl polymorph calcium carbon caco3
@@ -2078,7 +2068,7 @@ carbon dioxid occur natur earth atmospher trace gas concentr 0 04 percent 400 pp
 natur sourc includ volcano hot spring geyser carbon dioxid freed carbon rock dissolut water acid
 carbon dioxid solubl water occur natur groundwat river lake ice cap glacier seawat
 carbon dioxid present deposit petroleum natur gas
-carbon dioxid odorless normal encount concentr
+carbon dioxid odorless normal encount concentr howev high concentr sharp acid odor
 sourc avail carbon carbon cycl atmospher carbon dioxid primari carbon sourc life earth concentr earth pre industri atmospher sinc late precambrian regul photosynthet organ geolog phenomena
 plant alga cyanobacteria use light energi photosynthes carbohydr carbon dioxid water oxygen produc wast product
 carbon dioxid co2 produc aerob organ metabol carbohydr lipid produc energi respir
@@ -2124,7 +2114,7 @@ amphibian domin land vertebr carbonifer branch would eventu evolv amniot first s
 carbonifer arthropod also common mani meganeura much larger today
 vast swath forest cover land would eventu laid becom coal bed characterist carbonifer stratigraphi evid today
 atmospher content oxygen also reach carbonifer highest level geolog histori period 35 compar 21 today allow terrestri invertebr evolv great size
-major marin terrestri extinct event carbonifer rainforest collaps occur middl period caus environment chang
+major marin terrestri extinct event carbonifer rainforest collaps occur middl period caus climat chang
 carbonifer later half period experienc glaciat low sea level mountain build contin collid form pangaea
 carboxyl acid organ compound contain carboxyl group c oh
 general formula carboxyl acid r cooh r refer rest possibl quit larg molecul
@@ -2140,10 +2130,8 @@ isaac asimov call hard luck scheel made number chemic discoveri other general gi
 exampl scheel discov oxygen although joseph priestley publish find first identifi molybdenum tungsten barium hydrogen chlorin humphri davi among other
 scheel discov organ acid tartar oxal uric lactic citric well hydrofluor hydrocyan arsenic acid
 prefer speak german swedish carl wilhelm scheel whole life german common spoken among swedish pharmacist
-number theori carmichael number composit number n displaystyl n satisfi modular arithmet congruenc relat b n 1 1 mod n displaystyl b n 1 equiv 1 pmod n integ b displaystyl b relat prime n displaystyl n
 name robert carmichael
 carmichael number subset k1 knödel number
-equival carmichael number composit number n displaystyl n b n b mod n displaystyl b n equiv b pmod n integ b displaystyl b
 carnot cycl theoret thermodynam cycl propos french physicist sadi carnot 1824 expand upon other 1830s 1840s
 carnot cycl provid upper limit effici classic thermodynam engin achiev convers heat work convers effici refriger system creat temperatur differ e g
 carnot cycl refriger applic work system
@@ -2351,7 +2339,6 @@ chandrasekhar limit mass electron degeneraci pressur star core insuffici balanc 
 consequ white dwarf mass greater limit subject gravit collaps evolv differ type stellar remnant neutron star black hole
 mass limit remain stabl white dwarf
 chandrasekhar limit collaps inevit white dwarf explod rather undergo collaps
-current accept valu chandrasekhar limit 1 4 displaystyl odot 2 765 1030 kg
 chao theori branch mathemat focus behavior dynam system high sensit initi condit
 chao interdisciplinari theori state within appar random chaotic complex system under pattern constant feedback loop repetit self similar fractal self organ relianc program initi point known sensit depend initi condit
 butterfli effect describ small chang chao theori state determinist nonlinear system result larg differ later state e g
@@ -2527,16 +2514,16 @@ chordat fossil chordat known least earli cambrian explos
 hemichordata includ acorn worm present fourth chordat subphylum chordat usual treat separ phylum
 chordat hemichordata along echinodermata includ starfish sea urchin sea cucumb crinoid form ambulacraria sister taxon chordat
 chordat chordata ambulacraria form superphylum deuterostomia compos deuterostom
-christiaan neethl barnard 8 novemb 1922 2 septemb 2001 south african cardiac surgeon perform world first human human heart transplant 3 decemb 1967 second overal heart transplant jame hardi xenotranspl 1964
+christiaan neethl barnard 8 novemb 1922 2 septemb 2001 south african cardiac surgeon perform world first human human heart transplant 3 decemb 1967
 grow beaufort west cape provinc christiaan barnard studi medicin practis sever year nativ countri
 young doctor experi dog barnard develop remedi infant defect intestin atresia
 christiaan barnard techniqu save live ten babi cape town adopt surgeon britain unit state
 1955 christiaan barnard travel unit state initi assign gastrointestin work owen wangensteen
-vinc gott introduc heart lung machin barnard allow transfer servic run open heart surgeri pioneer walt lillehei
+introduc heart lung machin barnard allow transfer servic run open heart surgeri pioneer walt lillehei
 upon return south africa 1958 barnard appoint head depart experiment surgeri groot schuur hospit cape town
-3 decemb 1967 barnard transplant heart person die head injuri full permiss donor famili chest 54 year old loui washkanski
-washkanski regain full conscious live eighteen day even spend time wife christiaan barnard die pneumonia reduct immun system anti reject drug major contribut factor
-barnard state mr mrs washkanski oper 80 chanc success claim criticis mislead
+3 decemb 1967 barnard transplant heart denis darval die head injuri chest 54 year old loui washkanski
+washkanski regain full conscious live eighteen day even spend time wife christiaan barnard die pneumonia suppress immun system anti reject drug major contribut factor
+barnard told mr mrs washkanski oper 80 chanc success claim criticis mislead
 barnard second transplant patient philip blaiberg oper perform begin 1968 live nineteen month abl go home hospit
 retir head depart cardiothorac surgeri cape town 1983 develop rheumatoid arthriti christiaan barnard hand end surgic career
 becam interest anti age research 1986 reput suffer christiaan barnard promot glycel expens anti age skin cream whose approv withdrawn unit state food drug administr soon thereaft
@@ -2633,7 +2620,6 @@ claisen rearrang mani review written
 clausius clapeyron relat name rudolf clausius benoît paul émile clapeyron way character discontinu phase transit two phase matter singl constitu
 clausius-clapeyron relat pressur temperatur p diagram line separ two phase known coexist curv
 clausius clapeyron relat give slope tangent curv
-clausius-clapeyron relat mathemat p l δ v δ δ v displaystyl frac mathrm p mathrm frac l delta v frac delta delta v p displaystyl mathrm p mathrm slope tangent coexist curv point l displaystyl l specif latent heat displaystyl temperatur δ v displaystyl delta v specif volum chang phase transit δ displaystyl delta specif entropi chang phase transit
 clemmensen reduct chemic reaction describ reduct keton aldehyd alkan use zinc amalgam hydrochlor acid
 reaction name erik christian clemmensen danish chemist
 clemmensen reduct particular effect reduc aryl alkyl keton form friedel craft acyl
@@ -2902,12 +2888,6 @@ heat transfer natur convect play role structur earth atmospher convect ocean man
 convect discret convect cell atmospher seen cloud stronger convect result thunderstorm
 convect natur convect also play role stellar physic
 mathemat seri sum term infinit sequenc number
-converg ( mathemat ) given infinit sequenc 1 2 3 displaystyl left 1 2 3 dot right nth partial sum n displaystyl n sum first n term sequenc n k 1 n k
-converg ( mathemat ) displaystyl n sum k 1 n k
-seri converg sequenc converg ( mathemat ) partial sum 1 2 3 displaystyl left 1 2 3 dot right tend limit mean partial sum becom closer closer given number number term increas
-converg ( mathemat ) precis seri converg exist number ℓ displaystyl ell arbitrarili small posit number ε displaystyl varepsilon suffici larg integ n displaystyl n n n displaystyl n geq n n ℓ ε
-converg ( mathemat ) displaystyl left n ell right vert leq varepsilon
-converg ( mathemat ) seri converg number ℓ displaystyl ell necessarili uniqu call sum seri
 converg ( mathemat ) seri converg said diverg
 condens matter physic cooper pair bcs pair pair electron fermion bound togeth low temperatur certain manner first describ 1956 american physicist leon cooper
 cooper show arbitrarili small attract electron metal caus pair state electron lower energi fermi energi impli pair bound
@@ -3179,7 +3159,7 @@ cyanid exampl acetonitril cyanid group bond methyl ch3
 cyanid releas cyanid ion nitril general far less toxic cyanid salt
 cyanid nitril occur natur cyanohydrin releas hydrogen cyanid
 cyanobacteria also known cyanophyta phylum bacteria obtain energi photosynthesi photosynthet prokaryot abl produc oxygen
-cyanobacteria name cyanobacteria come color bacteria greek κυανός kyanó blue
+cyanobacteria name cyanobacteria come color bacteria blue
 cyanobacteria prokaryot use call blue green alga
 cyanobacteria renam cyanobacteria order avoid term alga modern usag restrict eukaryot
 cyanobacteria unlik heterotroph prokaryot cyanobacteria intern membran
@@ -3227,7 +3207,11 @@ cystein encod codon ugu ugc
 cystein thiol side chain cystein often particip enzymat reaction nucleophil
 cystein thiol suscept oxid give disulfid deriv cystin serv import structur role mani protein
 use food addit cystein e number e920
-seen serin cystein oxygen atom replac sulfur replac said atom selenium give selenocystein
+cystein structur serin one oxygen atom replac sulfur replac selenium give selenocystein
+cystein like natur proteinogen amino acid cystein l chiral older l notat base homolog l glyceraldehyd
+cystein newer r system design chiral base atom number atom near asymmetr carbon cystein selenocystein r chiral presenc sulfur resp
+cystein selenium second neighbor asymmetr carbon
+cystein remain chiral amino acid lighter atom posit chiral
 cystic fibrosi cf genet disord affect most lung also pancrea liver kidney intestin
 cystic fibrosi long term issu includ difficulti breath cough mucus result frequent lung infect
 cystic fibrosi sign symptom may includ sinus infect poor growth fatti stool club finger toe infertil male
@@ -3410,7 +3394,6 @@ demonstr wave particl dualiti experi import histor develop establish quantum mec
 chemist peter deby erich hückel notic solut contain ionic solut behav ideal even low concentr
 concentr solut fundament calcul dynam solut debye-huckel equat theoriz extra factor term gamma necessari calcul activ coeffici solut
 henc develop deby hückel equat deby hückel limit law
-debye-huckel equat activ proport concentr alter factor known activ coeffici γ displaystyl gamma
 debye-huckel equat factor take account interact energi ion solut
 delta uppercas δ lowercas δ 𝛿 greek δέλτα délta ˈðelta fourth letter greek alphabet
 system greek numer delta ( letter ) valu 4
@@ -3452,7 +3435,6 @@ fact circumst buyer find relev demand willing abil buy good affect demand
 demand exampl person caught unexpect storm like buy umbrella weather bright sunni
 densiti precis volumetr mass densiti substanc densiti mass per unit volum
 densiti symbol often use densiti ρ lower case greek letter rho although latin letter also use
-densiti mathemat densiti defin mass divid volum ρ v displaystyl rho frac v ρ densiti mass v volum
 case instanc unit state oil gas industri densiti loos defin weight per unit volum although densiti scientif inaccur quantiti specif call specif weight
 pure substanc densiti numer valu densiti mass concentr
 densiti differ materi usual differ densiti densiti may relev buoyanc puriti packag
@@ -3533,8 +3515,6 @@ determin linear algebra determin use valu comput element squar matrix
 determin determin matrix denot det det
 determin view scale factor transform describ matrix
 determin case 2 2 matrix specif formula determin b c b c
-displaystyl begin align begin vmatrix b c end vmatrix ad bc end align similar suppos 3 3 matrix want specif formula determin determin b c e f g h e f h b f g c e g h e b f g c h c e g b f h
-displaystyl begin align begin vmatrix b c e f g h end vmatrix begin vmatrix e f h end vmatrix b begin vmatrix f g end vmatrix c begin vmatrix e g h end vmatrix aei bfg cdh ceg bdi afh end align determin 2 2 matrix determin equat call minor matrix
 determin sort procedur use find determin 4 4 matrix determin 5 5 matrix forth
 determin determin occur throughout mathemat
 determin exampl matrix often use repres coeffici system linear equat determin use solv equat although effici techniqu actual use determin reveal consist comput effect way comput determin
@@ -3615,7 +3595,7 @@ diatom diatom produc within food chain
 uniqu featur diatom cell diatom enclos within cell wall made silica hydrat silicon dioxid call frustul
 diatom frustul show wide divers form usual almost bilater symmetr henc group name
 symmetri perfect sinc diatom valv slight larger allow one valv fit insid edg
-diatom shell use human diatomit diatomac earth
+diatom shell use human diatomac earth also known diatomit
 fossil evid suggest diatom origin earli jurass period
 diatom male gamet centric diatom capabl movement mean flagella
 diatom communiti popular tool monitor environment condit past present common use studi water qualiti
@@ -3632,6 +3612,7 @@ diffract defin bend light around corner obstacl apertur region geometr shadow ob
 diffract classic physic diffract phenomenon describ interfer wave accord huygen fresnel principl
 characterist behavior exhibit wave encount obstacl slit compar size diffract wavelength
 diffract similar effect occur light wave travel medium vari refract index sound wave travel medium vari acoust imped
+diffract impact acoust space
 diffract occur wave includ sound wave water wave electromagnet wave visibl light x ray radio wave
 diffract sinc physic object wave like properti atom level diffract also occur matter studi accord principl quantum mechan
 diffract italian scientist francesco maria grimaldi coin word diffract first record accur observ phenomenon 1660
@@ -3709,7 +3690,6 @@ although dirac first fulli appreci import result entail explan spin consequ unio
 accomplish describ fulli par work newton maxwel einstein dirac equat
 context quantum field theori dirac equat reinterpret describ quantum field correspond spin 1 2 particl
 algebra discrimin polynomi polynomi function discrimin coeffici allow deduc properti root without comput
-discrimin exampl discrimin quadrat polynomi x 2 b x c displaystyl ax 2 bx c b 2 4 c displaystyl b 2 4ac zero polynomi doubl root case real coeffici posit polynomi two real root
 general polynomi arbitrari degre discrimin zero discrimin multipl root case real coeffici posit number non real root multipl 4 degre 4 higher
 discrimin wide use number theori either direct discrimin general discrimin number field
 factor polynomi integ coeffici standard method consist factor first discrimin reduct modulo prime number divid discrimin divid lead coeffici
@@ -3825,7 +3805,6 @@ dysenteri symptom may includ fever abdomin pain feel incomplet defec
 dysenteri caus sever type infect bacteria virus parasit worm protozoa
 dysenteri mechan inflammatori disord intestin especi colon
 dyson sphere hypothet megastructur complet encompass star captur power output
-first known mention concept star enclos sphere earli indo european religi creation myth describ prenat sun enclos imprison rock
 first contemporari descript structur olaf stapledon scienc fiction novel star maker 1937 dyson sphere describ everi solar system surround gauz light trap focus escap solar energi intellig use
 concept later popular freeman dyson 1960 paper search artifici stellar sourc infrar radiat
 dyson specul structur would logic consequ escal energi need technolog civil would necess long term surviv
@@ -3838,7 +3817,6 @@ may 2013 starship centuri symposium san diego dyson repeat comment wish concept 
 number e mathemat constant approxim equal 2 71828 appear mani differ set throughout mathemat
 e ( mathemat constant ) discov swiss mathematician jacob bernoulli studi compound interest e aris limit 1 1 n n n approach infin
 e ( mathemat constant ) number e also calcul sum infinit seri e n 0 1 n
-e ( mathemat constant ) 1 1 1 1 1 1 2 1 1 2 3 displaystyl e displaystyl sum limit n 0 infti dfrac 1 n
 frac 1 1 frac 1 1 frac 1 1 cdot 2 frac 1 1 cdot 2 cdot 3 cdot also call euler number swiss mathematician leonhard euler e differ γ euler mascheroni constant sometim call simpli euler constant
 occasion number e term napier constant euler choic symbol e said retain honor
 e ( mathemat constant ) number e emin import mathemat alongsid 0 1 π
@@ -3931,6 +3909,7 @@ edward jenner frs 17 may 1749 26 januari 1823 english physician scientist pionee
 term vaccin vaccin deriv variola vaccina smallpox cow term devis jenner denot cowpox
 use edward jenner 1796 long titl inquiri variola vaccina known cow pox describ protect effect cowpox smallpox
 jenner often call father immunolog work said save live work human
+jenner time smallpox kill around 10 percent popul number high 20 percent town citi infect spread easili
 member royal societi field zoolog edward jenner first person describ brood parasit cuckoo
 2002 jenner name bbc list 100 greatest briton
 edwin powel hubbl novemb 20 1889 septemb 28 1953 american astronom
@@ -3942,8 +3921,6 @@ hubbl law impli univers expand
 decad american astronom vesto slipher provid first evid light mani edwin hubbl nebula strong red shift indic high recess veloc
 hubbl name wide recogn hubbl space telescop name honor model promin display hometown marshfield missouri
 linear algebra eigenvector characterist vector linear transform non zero vector chang overal scale linear transform appli eigenvalu
-eigenvalu formal linear transform vector space v field f v vector v zero vector v eigenvector v scalar multipl v condit written equat v λ v displaystyl mathbf v lambda mathbf v λ scalar field f known eigenvalu characterist valu characterist root associ eigenvector v vector space v finit dimension linear transform repres squar matrix vector v column vector render map matrix multipl left hand side scale column vector right hand side equat v λ v
-eigenvalu displaystyl mathbf v lambda mathbf v
 eigenvalu correspond n n squar matric linear transform n dimension vector space
 eigenvalu reason equival defin eigenvalu eigenvector use either languag matric languag linear transform
 geometr eigenvector correspond real nonzero eigenvalu point direct stretch transform eigenvalu factor eigenvalu stretch
@@ -4018,11 +3995,9 @@ electr resist share conceptu parallel notion mechan friction
 si unit electr resist ohm ω electr conduct measur siemen
 object uniform cross section resist proport resist length invers proport cross section area
 materi show resist except superconductor resist zero
-resist r object defin ratio voltag across v current conduct g invers r v g v 1 r displaystyl r v qquad g v frac 1 r wide varieti materi condit v direct proport therefor r g constant although depend factor like temperatur strain
 proport call ohm law materi satisfi electr resist call ohmic materi
 electr resist case transform diod batteri v direct proport
 ratio v sometim still use refer chordal resist static resist sinc correspond invers slope chord origin v curv
-electr resist situat deriv v displaystyl frac dv di
 may use call differenti resist
 electrolysi chemistri manufactur electrolysi techniqu use direct electr current dc drive otherwis non spontan chemic reaction
 electrolysi commerci import stage separ element natur occur sourc ore use electrolyt cell
@@ -4227,7 +4202,6 @@ real materi common temperatur pressur usual close approxim enthalpi behavior gre
 entropi statist mechan entropi usual symbol relat number microscop configur ω thermodynam system state specifi macroscop variabl
 entropi specif assum simplic microscop configur equal probabl entropi system natur logarithm number configur multipli boltzmann constant kb
 entropi formal k b ln ω assum equiprob state
-entropi displaystyl k mathrm b ln omega text assum equiprob state
 entropi consist 19th centuri formula entropi term heat temperatur discuss
 entropi boltzmann constant therefor entropi dimens energi divid temperatur
 entropi exampl gas contain known volum pressur energi could enorm number possibl configur collect individu gas molecul
@@ -4239,7 +4213,6 @@ non isol system may lose entropi provid entropi environ entropi increas least am
 sinc entropi function state system chang entropi system determin entropi initi final state
 entropi appli whether process revers irrevers
 howev irrevers process increas combin entropi system entropi environ
-entropi mid 19th centuri chang entropi δs system undergo thermodynam revers process defin rudolf clausius δ δ q rev displaystyl delta int frac delta q text rev absolut temperatur system divid increment revers transfer heat system δqrev
 entropi heat transfer sign would revers give decreas entropi system
 definit sometim call macroscop definit entropi entropi use without regard microscop descript content system
 entropi concept entropi found general use sever formul
@@ -4374,10 +4347,7 @@ escap veloc achiev impuls need appli continu escap
 word given escap veloc object move away bodi continu slow asymptot approach zero speed object distanc approach infin never come back
 speed higher escap veloc posit speed infin
 note minimum escap veloc assum friction e g atmospher drag would increas requir instantan veloc escap gravit influenc futur sourc addit veloc e g thrust would reduc requir instantan veloc
-spheric symmetr massiv bodi star planet escap veloc bodi given distanc calcul formula v e 2 g r displaystyl v e sqrt frac 2gm r g univers gravit constant g 6 67 10 11 m3 kg 1 2 mass bodi escap r distanc center mass bodi object
 relationship independ mass object escap mass bodi convers bodi fall forc gravit attract mass infin start zero veloc strike object veloc equal escap veloc
-escap veloc given speed v displaystyl v greater escap speed v e displaystyl v e object asymptot approach hyperbol excess speed v displaystyl v infti satisfi equat v 2 v 2 v e 2
-escap veloc displaystyl v infti 2 v 2 v e 2
 escap veloc equat atmospher friction air drag taken account
 rocket move graviti well actual need attain escap veloc escap could achiev result escap speed suitabl mode propuls suffici propel provid acceler forc object escap
 escap veloc requir send ballist object trajectori allow object escap graviti well mass
@@ -4455,7 +4425,6 @@ element euclid deduc principl call euclidean geometri small set axiom
 euclid also wrote work perspect conic section spheric geometri number theori rigor
 euclid anglic version greek name εὐκλείδης mean renown glorious
 mathemat specif algebra topolog polyhedr combinator euler characterist euler number euler poincaré characterist topolog invari number describ topolog space shape structur regardless way bent
-euler characterist common denot χ displaystyl chi greek lower case letter chi
 euler characterist origin defin polyhedra use prove various theorem includ classif platon solid
 leonhard euler concept name respons much earli work
 modern mathemat euler characterist aris homolog abstract homolog algebra
@@ -4515,7 +4484,6 @@ even number exampl odd number 5 3 9 73
 formal definit even number integ form n 2k k integ shown odd number integ form n 2k 1
 import realiz definit pariti appli integ number henc even number appli number like 1 2 4 201
 even number see section higher mathemat extens notion pariti larger class number general set
-set even odd number defin follow even 2 k k z displaystyl 2k k mathbb z odd 2 k 1 k z displaystyl 2k 1 k mathbb z number e integ express decim numer system even odd accord whether last digit even odd
 last digit 1 3 5 7 9 even number odd otherwis even
 even number idea work use even base
 particular number express binari numer system odd last digit 1 even last digit 0
@@ -4564,7 +4532,6 @@ eye simplest eye microorgan noth detect whether surround light dark suffici entr
 eye complex eye retin photosensit ganglion cell send signal along retinohypothalam tract suprachiasmat nuclei effect circadian adjust pretect area control pupillari light reflex
 factori mathemat factori non negat integ n denot n product posit integ less equal n exampl 5
 factori 5 4 3 2 1 120
-factori displaystyl 5 5 time 4 time 3 time 2 time 1 120
 factori valu 0
 factori 1 accord convent empti product
 factori factori oper encount mani area mathemat notabl combinator algebra mathemat analysi
@@ -4582,7 +4549,6 @@ fast fourier transform time period measur signal contain 3 distinct domin freque
 fft algorithm comput discret fourier transform dft sequenc invers ifft
 fourier analysi convert signal origin domain represent frequenc domain vice versa
 fast fourier transform fft rapid comput transform factor dft matrix product spars most zero factor
-result fast fourier transform manag reduc complex comput dft n 2 displaystyl n 2 aris one simpli appli definit dft n log n displaystyl n log n n displaystyl n data size
 fast fourier transform wide use mani applic engin scienc mathemat
 fast fourier transform basic idea popular 1965 algorithm deriv earli 1805
 1994 gilbert strang describ fft import numer algorithm lifetim fast fourier transform includ top 10 algorithm 20th centuri ieee journal comput scienc engin
@@ -4612,10 +4578,8 @@ proof fermat last theorem also prove much modular theorem open entir new approac
 fermat 's last theorem unsolv problem stimul develop algebra number theori 19th centuri proof modular theorem 20th centuri
 among notabl theorem histori mathemat prior proof fermat 's last theorem guin book world record difficult mathemat problem one reason largest number unsuccess proof
 fermat littl theorem state p prime number integ number p integ multipl p notat modular arithmet express p mod p
-fermat 's littl theorem displaystyl p equiv pmod p
 fermat 's littl theorem exampl 2 p 7 27 128 128 2 7 18 integ multipl 7
 divis p fermat littl theorem equival statement p 1 1 integ multipl p symbol p 1 1 mod p
-fermat 's littl theorem displaystyl p 1 equiv 1 pmod p
 fermat 's littl theorem exampl 2 p 7 26 64 64 1 63 thus multipl 7
 fermat littl theorem basi fermat primal test one fundament result elementari number theori
 theorem name pierr de fermat state 1640
@@ -4645,14 +4609,10 @@ perman magnet materi magnet extern magnet field remain magnet extern field remov
 ferromagnet substanc ferromagnet
 common one iron nickel cobalt ferromagnet alloy compound rare earth metal
 ferromagnet import industri modern technolog basi mani electr electromechan devic electromagnet electr motor generat transform magnet storag tape record hard disk nondestruct test ferrous materi
-mathemat fibonacci number number follow integ sequenc call fibonacci sequenc character fact everi number first two sum two preced one 1 1 2 3 5 8 13 21 34 55 89 144 displaystyl 1 1 2 3 5 8 13 21 34 55 89 144 ldot often especi modern usag sequenc extend one initi term 0 1 1 2 3 5 8 13 21 34 55 89 144 displaystyl 0 1 1 2 3 5 8 13 21 34 55 89 144 ldot
 definit first two number fibonacci sequenc either 1 1 0 1 depend chosen start point sequenc subsequ number sum previous two
-sequenc fn fibonacci number defin recurr relat f n f n 1 f n 2 displaystyl f n f n 1 f n 2 seed valu f 1 1 f 2 1 displaystyl f 1 1 f 2 1 f 0 0 f 1 1
-fibonacci number displaystyl f 0 0 f 1 1
 fibonacci sequenc name italian mathematician leonardo pisa known fibonacci
 fibonacci number 1202 book liber abaci introduc sequenc western european mathemat although sequenc describ earlier indian mathemat
 fibonacci number sequenc describ liber abaci began f1 1
-fibonacci number close relat luca number l n displaystyl l n form complementari pair luca sequenc u n 1 1 f n displaystyl u n 1 1 f n v n 1 1 l n displaystyl v n 1 1 l n
 fibonacci number intim connect golden ratio exampl closest ration approxim ratio 2 1 3 2 5 3 8 5
 fibonacci number appear unexpect often mathemat much entir journal dedic studi fibonacci quarter
 applic fibonacci number includ comput algorithm fibonacci search techniqu fibonacci heap data structur graph call fibonacci cube use interconnect parallel distribut system
@@ -4757,7 +4717,7 @@ flux electromagnet flux scalar quantiti defin surfac integr compon vector field 
 folat form known folic acid vitamin b9 one b vitamin
 folic acid recommend daili intak folat us 400 microgram food dietari supplement
 folat form folic acid use treat anemia caus folic acid defici
-folic acid also use supplement women pregnanc prevent neural tube defect babi
+folic acid also use supplement women pregnanc prevent neural tube defect ntd babi
 folic acid low level earli pregnanc believ caus half babi born neural tube defect
 50 countri use fortif certain food folic acid measur decreas rate ntds popul
 folic acid long term supplement also associ small reduct risk stroke cardiovascular diseas
@@ -4803,7 +4763,7 @@ foucault 's pendulum first publish 1988 english translat william weaver appear y
 foucault pendulum divid ten segment repres ten sefiroth
 satir novel full esoter refer kabbalah alchemi conspiraci theori mani critic novelist anthoni burgess suggest foucault 's pendulum need index
 pendulum titl refer actual pendulum design french physicist léon foucault demonstr earth rotat symbol signific within novel
-believ refer philosoph michel foucault note eco friendship french philosoph author specif reject intent refer michel foucault regard one subtl literari joke
+believ refer michel foucault note eco friendship french philosoph author specif reject intent refer michel foucault regard one subtl literari joke
 popul genet founder effect loss genet variat occur new popul establish small number individu larger popul
 founder effect first fulli outlin ernst mayr 1942 use exist theoret work sewal wright
 result loss genet variat new popul may distinct differ genotyp phenotyp parent popul founder effect deriv
@@ -4999,7 +4959,6 @@ fugac exampl nitrogen gas n2 0 c pressur p 100 atm fugac f 97 03 atm
 fugac mean chemic potenti real nitrogen pressur 100 atm less nitrogen ideal gas 100 atm
 fugac ideal gas nitrogen 97 03 atm would chemic potenti real nitrogen 100 atm
 fugac fugac determin experiment estim various model van der waal gas closer realiti ideal gas
-fugac ideal gas pressur fugac relat dimensionless fugac coeffici φ φ f p displaystyl varphi frac f p nitrogen 100 atm fugac coeffici 97 03 atm 100 atm 0 9703
 fugac ideal gas fugac pressur equal φ 1
 fugac contribut nonid chemic potenti real gas equal rt ln φ
 fugac nitrogen 100 atm chemic potenti μ μid rt ln 0 9703 less ideal valu μid intermolecular attract forc
@@ -5198,11 +5157,8 @@ modern greek gamma letter repres either voic velar fricat voic palat fricat
 intern phonet alphabet modern latin alphabet base phonet notat gamma repres voic velar fricat
 mathemat gamma function repres capit greek alphabet letter γ extens factori function argument shift 1 real complex number
 gamma function n posit integ γ n n 1
-displaystyl gamma n n 1
 gamma function defin complex number except non posit integ
-complex number posit real part defin via converg improp integr γ z 0 x z 1 e x x displaystyl gamma z int 0 infti x z 1 e x dx integr function extend analyt continu complex number except non posit integ function simpl pole yield meromorph function call gamma function
 zero reciproc gamma function 1 γ z holomorph function
-fact gamma function correspond mellin transform negat exponenti function γ z e x z displaystyl gamma z mathcal e x z gamma function compon various probabl distribut function applic field probabl statist well combinator
 gamma aminobutyr acid γ aminobutyr acid gaba chief inhibitori neurotransmitt mammalian central nervous system
 gamma-aminobutyr acid princip role reduc neuron excit throughout nervous system
 gamma-aminobutyr acid human gaba also direct respons regul muscl tone
@@ -5430,10 +5386,7 @@ gibb free energi origin call avail energi develop 1870s american scientist josia
 1873 gibb describ avail energi greatest amount mechan work obtain given quantiti certain substanc given initi state without increas total volum allow heat pass extern bodi except close process left initi condit
 initi state bodi accord gibb suppos bodi made pass state dissip energi revers process
 1876 magnum opus equilibrium heterogen substanc graphic analysi multi phase chemic system engag thought chemic free energi full
-thermodynam gibb duhem equat describ relationship chang chemic potenti compon thermodynam system 1 n μ v p displaystyl sum 1 n mathrm mu mathrm v mathrm p n displaystyl n number mole compon displaystyl μ displaystyl mathrm mu infinitesim increas chemic potenti compon displaystyl entropi displaystyl absolut temperatur v displaystyl v volum p displaystyl p pressur
-gibbs-duhem equat displaystyl number differ compon system
 equat show thermodynam intens properti independ relat make mathemat statement state postul
-pressur temperatur variabl 1 displaystyl 1 displaystyl compon independ valu chemic potenti gibb phase rule follow
 gibb duhem equat use small thermodynam system due influenc surfac effect microscop phenomena
 law name josiah willard gibb pierr duhem
 gilbert newton lewi octob 25 23 1875 march 23 1946 american physic chemist known discoveri coval bond concept electron pair lewi dot structur contribut valenc bond theori shape modern theori chemic bond
@@ -5569,7 +5522,7 @@ glutam acid α amino acid formula c 5h 9o 4n
 glutam acid usual abbrevi glu e biochemistri
 molecular structur could ideal hooc ch nh 2 ch 2 2 cooh two carboxyl group cooh glutam acid amino group nh 2
 howev solid state mild acid water solut molecul assum electr neutral zwitterion structur ooc ch nh 3 ch 2 2 cooh
-acid lose one proton second carboxyl group form conjug base singl negat anion glutam ooc ch nh 3 ch 2 2 coo
+acid lose one proton second carboxyl group form conjug acid singl negat anion glutam ooc ch nh 3 ch 2 2 coo
 glutam acid form compound preval neutral solut
 glutam acid glutam neurotransmitt play princip role neural activ
 glutam acid anion also respons savori flavor umami certain food use glutam flavor msg
@@ -5652,9 +5605,7 @@ goldbach 's conjectur state everi even integ greater 2 express sum two prime
 conjectur shown hold integ less 4 1018 remain unproven despit consider effort
 mathemat two quantiti golden ratio ratio ratio sum larger two quantiti
 golden ratio figur right illustr geometr relationship
-express algebra quantiti b b 0 b b def φ displaystyl frac b frac b stackrel text def varphi greek letter phi φ displaystyl varphi ϕ displaystyl phi repres golden ratio
 golden ratio irrat number valu φ 1 5 2 1 6180339887
-golden ratio displaystyl varphi frac 1 sqrt 5 2 1 6180339887 ldot
 golden ratio also call golden mean golden section latin sectio aurea
 name includ extrem mean ratio medial section divin proport divin section latin sectio divina golden proport golden cut golden number
 twentieth centuri artist architect includ le corbusi dalí proport work approxim golden ratio especi form golden rectangl ratio longer side shorter golden ratio believ proport aesthet pleas
@@ -5884,7 +5835,6 @@ hard plastic
 hard macroscop hard general character strong intermolecular bond behavior solid materi forc complex therefor differ measur hard scratch hard indent hard rebound hard
 hard depend ductil elast stiff plastic strain strength tough viscoelast viscos
 hard common exampl hard matter ceram concret certain metal superhard materi contrast soft matter
-classic mechan harmon oscil system displac equilibrium posit experi restor forc f proport displac x f k x displaystyl vec f k vec x k posit constant
 f forc act system system call simpl harmon oscil undergo simpl harmon motion sinusoid oscil equilibrium point constant amplitud constant frequenc depend amplitud
 friction forc damp proport veloc also present harmon oscil describ damp oscil
 depend friction coeffici system oscil frequenc lower undamp case amplitud decreas time underdamp oscil
@@ -5917,10 +5867,11 @@ mani situat hash tabl turn effici search tree tabl lookup structur
 hash tabl reason wide use mani kind comput softwar particular associ array databas index cach set
 hawk radiat also known hawk zel dovich radiat blackbodi radiat predict releas black hole due quantum effect near event horizon
 name physicist stephen hawk provid theoret argument exist 1974 sometim also jacob bekenstein predict black hole finit entropi
-hawk work follow visit moscow 1973 soviet scientist yakov zeldovich alexei starobinski dcu head physic sean bolger show accord quantum mechan uncertainti principl rotat black hole creat emit particl
+hawk work follow visit moscow 1973 soviet scientist yakov zeldovich alexei starobinski show accord quantum mechan uncertainti principl rotat black hole creat emit particl
 hawk radiat reduc mass energi black hole therefor also known black hole evapor
 hawk radiat black hole gain mass mean expect shrink ultim vanish
-micro black hole predict larger emitt radiat larger black hole shrink dissip faster process experi earth known space cancer june 2008 nasa launch fermi space telescop search termin gamma ray flash expect evapor primordi black hole
+micro black hole predict larger emitt radiat larger black hole shrink dissip faster
+hawk radiat june 2008 nasa launch fermi space telescop search termin gamma ray flash expect evapor primordi black hole
 event specul larg extra dimens theori correct cern larg hadron collid may abl creat micro black hole observ hawk radiat evapor
 hawk radiat micro black hole ever observ cern
 septemb 2010 signal close relat black hole hawk radiat see analog graviti claim observ laboratori experi involv optic light puls
@@ -5962,7 +5913,6 @@ heart cardiovascular diseas frequent symptom may caus chest pain short breath
 heart diagnosi heart diseas often done take medic histori listen heart sound stethoscop ecg ultrasound
 heart specialist focus diseas heart call cardiologist although mani specialti medicin may involv treatment
 heat capac thermal capac measur physic quantiti equal ratio heat ad remov object result temperatur chang
-unit heat capac joul per kelvin j k displaystyl mathrm tfrac j k kilogram metr squar per kelvin second squar k g 2 k 2 displaystyl mathrm tfrac kg cdot 2 k cdot 2 intern system unit si
 heat capac dimension form l2mt 2θ 1
 specif heat amount heat need rais temperatur heat capac kilogram mass 1 kelvin
 heat capac extens properti matter mean proport size system
@@ -6023,7 +5973,6 @@ gibb free energi common use measur thermodynam potenti especi field chemistri in
 exampl explos research helmholtz free energi often use sinc explos reaction natur induc pressur chang
 helmholtz free energi also frequent use defin fundament equat state pure substanc
 hemoglobin american haemoglobin british abbrevi hb hgb iron contain oxygen transport metalloprotein red blood cell vertebr except fish famili channichthyida well tissu invertebr
-hemoglobin formula c2952h4664o832n812s8fe4
 hemoglobin blood carri oxygen respiratori organ lung gill rest bodi e
 hemoglobin tissu
 hemoglobin releas oxygen permit aerob respir provid energi power function organ process call metabol
@@ -6040,7 +5989,6 @@ hemoglobin organ hemoglobin may carri oxygen may act transport regul small molec
 hemoglobin variant molecul call leghemoglobin use scaveng oxygen away anaerob system nitrogen fix nodul legumin plant oxygen poison deactiv system
 chemistri henderson hasselbalch equat often written henderson hasselbach equat describ deriv ph measur acid use pka negat log acid dissoci constant biolog chemic system
 equat also use estim ph buffer solut find equilibrium ph acid base reaction wide use calcul isoelectr point protein
-equat given p h p k log 10 h displaystyl mathrm ph mathrm p k mathrm log 10 left frac mathrm mathrm ha right ha molar concentr undissoci weak acid molar concentr molar acid conjug base pka log10 ka ka acid dissoci constant p k log 10 k log 10 h 3 h displaystyl mathrm p k mathrm log 10 k mathrm log 10 left frac mathrm h 3 mathrm mathrm mathrm ha right non specif brønsted acid base reaction h h 2 h 3 displaystyl mathrm ha mathrm h 2 mathrm rightleftharpoon mathrm mathrm h 3 mathrm equat denot ionic form relev acid
 henderson-hasselbalch equat bracket quantiti base acid denot molar concentr quantiti enclos
 hendrik antoon lorentz 18 juli 1853 4 februari 1928 dutch physicist share 1902 nobel prize physic pieter zeeman discoveri theoret explan zeeman effect
 hendrik lorentz also deriv transform equat underpin albert einstein theori special relat
@@ -6234,7 +6182,7 @@ human papillomavirus 1 sexual activ adult genit wart
 case wart describ sinc time ancient greec human papillomavirus viral natur discov 1907
 sir humphri davi 1st baronet 17 decemb 1778 29 may 1829 cornish chemist inventor best rememb today isol seri substanc first time potassium sodium 1807 calcium strontium barium magnesium boron follow year well discov element natur chlorin iodin
 also studi forc involv humphri davi separ invent new field electrochemistri
-1799 davi experi nitrous oxid becam astonish made laugh nicknam laugh gas wrote potenti anesthet properti reliev pain surgeri
+1799 davi experi nitrous oxid becam astonish made laugh nicknam laugh gas wrote potenti anaesthet properti reliev pain surgeri
 berzelius call davi 1806 bakerian lectur chemic agenc electr one best memoir ever enrich theori chemistri
 humphri davi baronet presid royal societi prs member royal irish academi mria fellow geolog societi fgs
 also invent davi lamp earli form incandesc light bulb
@@ -6252,7 +6200,7 @@ huntington 's diseas mental abil general declin dementia
 huntington 's diseas specif symptom vari somewhat peopl
 huntington 's diseas symptom usual begin 30 50 year age start age
 diseas may develop earlier life success generat
-8 case start age 20 year typic present symptom similar parkinson diseas
+eight percent case start age 20 year typic present symptom similar parkinson diseas
 peopl hd often underestim degre huntington 's diseas problem
 hd typic inherit person parent 10 case due new mutat
 diseas caus autosom domin mutat either individu two copi gene call huntingtin
@@ -6291,6 +6239,8 @@ hydrochlor acid discov alchemist jabir ibn hayyan around year 800 ad
 hydrochlor acid histor call acidum sali muriat acid spirit salt produc rock salt green vitriol basilius valentinus 15th centuri later chemic similar common salt sulfur acid johann rudolph glauber 17th centuri
 free hydrochlor acid first formal describ 16th centuri libavius
 later hydrochlor acid use chemist glauber priestley davi scientif research
+unless pressur cool hydrochlor acid turn gas around 60 less water
+hydrochlor acid also known muriat acid hydronium chlorid
 major product start industri revolut hydrochlor acid use chemic industri chemic reagent larg scale product vinyl chlorid pvc plastic mdi tdi polyurethan
 hydrochlor acid numer smaller scale applic includ household clean product gelatin food addit descal leather process
 20 million tonn hydrochlor acid produc worldwid annual
@@ -6335,7 +6285,7 @@ recent work prove hydrogen bond h integr inter molecular h lone pair nonbond int
 hydrogen peroxid chemic compound formula h 2o 2
 pure form hydrogen peroxid pale blue clear liquid slight viscous water
 hydrogen peroxid simplest peroxid compound oxygen oxygen singl bond
-hydrogen peroxid use oxid bleach agent disinfect
+hydrogen peroxid use oxid bleach agent antisept
 concentr hydrogen peroxid high test peroxid reactiv oxygen speci use propel rocketri
 chemistri domin natur unstabl peroxid bond
 hydrogen peroxid unstabl slowli decompos presenc base catalyst
@@ -6353,11 +6303,9 @@ hyperbola hyperbola three kind conic section form intersect plane doubl cone
 hyperbola conic section parabola ellips
 hyperbola circl special case ellips
 hyperbola plane intersect halv doubl cone pass apex cone conic hyperbola
-hyperbola aris mani way curv repres function f x 1 x displaystyl f x 1 x cartesian plane path follow shadow tip sundial shape open orbit distinct close ellipt orbit orbit spacecraft graviti assist swing planet general spacecraft exceed escap veloc nearest planet path singl apparit comet hyperbola travel fast ever return solar system scatter trajectori subatom particl act repuls instead attract forc principl radio navig differ distanc two point distanc determin
 hyperbola branch hyperbola two arm becom straighter lower curvatur center hyperbola
 diagon opposit arm hyperbola branch tend limit common line call asymptot two arm
 hyperbola two asymptot whose intersect center symmetri hyperbola thought mirror point branch reflect form branch
-hyperbola case curv f x 1 x displaystyl f x 1 x asymptot two coordin axe
 hyperbola hyperbola share mani ellips analyt properti eccentr focus directrix
 hyperbola typic correspond made noth chang sign term
 mani mathemat object hyperbola origin hyperbola hyperbol paraboloid saddl surfac hyperboloid wastebasket hyperbol geometri lobachevski celebr non euclidean geometri hyperbol function sinh cosh tanh etc
@@ -6406,7 +6354,6 @@ iceberg also 91 iceberg surfac water
 ideal gas law also call general gas equat equat state hypothet ideal gas
 good approxim behavior mani gase mani condit although ideal gas law sever limit
 first state émile clapeyron 1834 combin empir boyl law charl law avogadro law
-ideal gas law often written p v n r displaystyl pv nrt p displaystyl p pressur gas v displaystyl v volum gas n displaystyl n amount substanc gas mole r displaystyl r ideal univers gas constant equal product boltzmann constant avogadro constant displaystyl absolut temperatur gas
 ideal gas law also deriv microscop kinet theori achiev appar independ august krönig 1856 rudolf clausius 1857
 psycholog etholog imprint kind phase sensit learn learn occur particular age particular life stage rapid appar independ consequ behaviour
 imprint ( psycholog ) first use describ situat anim person learn characterist stimulus therefor said imprint onto subject
@@ -6419,7 +6366,6 @@ impuls ( physic ) correspond english engin unit pound second lbf slug foot per s
 result forc caus acceler chang veloc bodi long impuls ( physic ) act
 impuls ( physic ) result forc appli longer time therefor produc bigger chang linear momentum forc appli briefli chang momentum equal product averag forc durat
 impuls ( physic ) convers small forc appli long time produc chang momentum impuls larger forc appli briefli
-impuls ( physic ) j f averag 2 1 displaystyl j f text averag 2 1 impuls integr result forc f respect time j f displaystyl j int f mathrm
 inertia resist physic object chang state motion
 inertia includ chang object speed direct state rest
 inertia also defin tendenc object keep move straight line constant veloc
@@ -6534,7 +6480,6 @@ insulin model list essenti medicin import medic need basic health system
 integ integ latin integ mean whole number written without fraction compon
 integ exampl 21 4 0 2048 integ 9 75 5 1 2 2
 set integ consist zero 0 posit natur number 1 2 3 also call whole number count number integ addit invers negat integ e 1 2 3
-integ often denot boldfac z z blackboard bold z displaystyl mathbb z unicod u 2124 ℤ stand german word zahlen ˈtsaːlən number
 integ ℤ subset set ration number ℚ turn subset real number ℝ
 integ like natur number ℤ countabl infinit
 integ integ form smallest group smallest ring contain natur number
@@ -6542,14 +6487,11 @@ algebra number theori integ sometim call ration integ distinguish integ general 
 integ fact ration integ algebra integ also ration number
 integr mathemat integr assign number function way describ displac area volum concept aris combin infinitesim data
 integr integr two main oper calculus invers differenti
-integr given function f real variabl x interv b real line definit integr b f x x displaystyl int b f x dx defin inform sign area region xy plane bound graph f x axi vertic line x x b
 integr area x axi add total x axi subtract total
 integr rough speak oper integr revers differenti
 integr reason term integr may also refer relat notion antideriv function f whose deriv given function f case call indefinit integr written f x f x x
-integr displaystyl f x int f x dx
 integr discuss integr articl term definit integr
 integr fundament theorem calculus connect differenti definit integr f continu real valu function defin close interv b antideriv f f known definit integr f interv given b f x x f x b f b f
-integr displaystyl int b f x dx left f x right b f b f
 integr principl integr formul independ isaac newton gottfri leibniz late 17th centuri thought integr infinit sum rectangl infinitesim width
 integr bernhard riemann gave rigor mathemat definit integr
 integr base limit procedur approxim area curvilinear region break region thin vertic slab
@@ -6923,7 +6865,6 @@ via one kidney mechan kidney particip control volum various bodi fluid compart f
 filtrat occur glomerulus kidney fifth blood volum enter kidney filter
 kidney exampl substanc reabsorb solut free water sodium bicarbon glucos amino acid
 kidney exampl substanc secret hydrogen ammonium potassium uric acid
-kidney exampl substanc excret urea ammonium uric acid
 kidney kidney also carri function independ nephron
 exampl kidney convert precursor vitamin activ form calcitriol synthes hormon erythropoietin renin
 kidney renal physiolog studi kidney function
@@ -6956,11 +6897,9 @@ physic kinet energi object energi possess due motion
 defin work need acceler bodi given mass rest kinet energi state veloc
 gain energi acceler bodi maintain kinet energi unless speed chang
 amount work done bodi deceler kinet energi current speed state rest
-classic mechan kinet energi non rotat object mass travel speed v 1 2 v 2 displaystyl begin smallmatrix frac 1 2 mv 2 end smallmatrix
 relativist mechan kinet energi good approxim v much less speed light
 standard unit kinet energi joul
 kinet isotop effect kie chang reaction rate chemic reaction one atom reactant replac one isotop
-formal kinet isotop effect ratio rate constant reaction involv light kl heavi kh isotop substitut reactant k e k l k h displaystyl kie frac k l k h chang rate result heavier isotopologu lower veloc mobil increas stabil higher dissoci energi compar compound contain lighter isotop
 studi kinet isotop effect help elucid reaction mechan certain chemic reaction
 kirkwood gap gap dip distribut semi major axe equival orbit period orbit main belt asteroid
 kirkwood gap correspond locat orbit reson jupit
@@ -7171,7 +7110,7 @@ laser spatial coher also allow laser beam stay narrow great distanc collim enabl
 laser also high tempor coher allow emit light narrow spectrum e laser emit singl color light
 laser tempor coher use produc puls light short femtosecond
 among laser mani applic laser use optic disk drive laser printer barcod scanner dna sequenc instrument fiber optic free space optic communic laser surgeri skin treatment cut weld materi militari law enforc devic mark target measur rang speed laser light display entertain
-lattic energi enthalpi crystallin solid usual defin energi format crystal infinit separ ion invari posit
+lattic energi crystallin solid usual defin energi format crystal infinit separ ion invari negat
 precis valu lattic energi may determin experiment imposs prepar adequ amount gaseous ion atom measur energi releas condens form solid
 howev valu lattic energi may either deriv theoret electrostat thermodynam cycl reaction born haber cycl
 lava molten rock generat geotherm energi expel fractur planetari crust erupt usual temperatur 700 1 200 c 1 292 2 192 f
@@ -7205,7 +7144,7 @@ chemistri principl use manipul outcom revers reaction often increas yield reacti
 pharmacolog bind ligand receptor may shift equilibrium accord le chateli principl therebi explain divers phenomena receptor activ desensit
 econom principl general help explain price equilibrium effici econom system
 simultan equilibrium system phenomena appar contradict le chateli principl occur resolv theori respons reaction
-lead chemic element assign symbol pb latin plumbum atom number 82
+lead chemic element symbol pb latin plumbum atom number 82
 lead heavi metal denser common materi
 lead soft malleabl relat low melt point
 fresh cut lead bluish white lead tarnish dull gray color expos air
@@ -7226,7 +7165,6 @@ lead neurotoxin accumul soft tissu bone damag nervous system caus blood disord
 lead particular problemat children even blood level prompt normal treatment perman brain damag may result
 lennard jone potenti also term l j potenti 6 12 potenti 12 6 potenti mathemat simpl model approxim interact pair neutral atom molecul
 form interatom potenti first propos 1924 john lennard jone
-common express l j potenti v lj 4 ε σ r 12 σ r 6 ε r r 12 2 r r 6 displaystyl v text lj 4 varepsilon left left frac sigma r right 12 left frac sigma r right 6 right varepsilon left left frac r text r right 12 2 left frac r text r right 6 right ε depth potenti well σ finit distanc inter particl potenti zero r distanc particl rm distanc potenti reach minimum
 rm potenti function valu ε
 lennard-jon potenti distanc relat rm 21 6σ 1 122σ
 lennard-jon potenti paramet fit reproduc experiment data accur quantum chemistri calcul
@@ -7398,8 +7336,6 @@ peac activ linus paul award nobel peac prize 1962
 linus paul four individu one nobel prize other mari curi john bardeen frederick sanger
 linus paul person award two unshar nobel prize one two peopl award nobel prize differ field mari curi
 complex analysi liouvill theorem name joseph liouvill state everi bound entir function must constant
-liouvill 's theorem ( complex analysi ) everi holomorph function f exist posit number f z displaystyl f z leq z displaystyl z c displaystyl mathbb c constant
-liouvill 's theorem ( complex analysi ) equival non constant holomorph function c displaystyl mathbb c dens imag
 theorem consider improv picard littl theorem say everi entir function whose imag omit two complex number must constant
 liquid crystal lcs matter state properti convent liquid solid crystal
 instanc liquid crystal may flow like liquid molecul may orient crystal like way
@@ -7419,7 +7355,7 @@ liquid crystal lyotrop liquid crystallin phase abund live system also found mine
 liquid crystal exampl mani protein cell membran liquid crystal
 liquid crystal well known exampl liquid crystal solut soap various relat deterg well tobacco mosaic virus clay
 list various type equilibrium condit system compet influenc balanc
-lithium greek λίθος litho stone chemic element symbol li atom number 3
+lithium stone chemic element symbol li atom number 3
 lithium soft silveri white alkali metal
 standard condit lithium lightest metal lightest solid element
 lithium like alkali metal lithium high reactiv flammabl store miner oil
@@ -7464,7 +7400,6 @@ natur logarithm number e 2 718 logarithm base use widespread mathemat physic sim
 logarithm binari logarithm use base 2 b 2 common use comput scienc
 logarithm logarithm introduc john napier earli 17th centuri mean simplifi calcul
 logarithm rapid adopt navig scientist engin other perform comput easili use slide rule logarithm tabl
-tedious multi digit multipl step replac tabl look up simpler addit fact import logarithm right logarithm product sum logarithm factor log b x log b x log b displaystyl log b xy log b x log b provid b x posit b 1
 present day notion logarithm come leonhard euler connect logarithm exponenti function 18th centuri
 logarithm logarithm scale reduc wide rang quantiti tini scope
 logarithm exampl decibel db unit use express log ratio most signal power amplitud sound pressur common exampl
@@ -7482,7 +7417,6 @@ london equat develop brother fritz heinz london 1935 relat current electromagnet
 arguabl simplest meaning descript superconduct phenomena london equat form genesi almost modern introductori text subject
 major triumph equat abil explain meissner effect wherein materi exponenti expel intern magnet field cross superconduct threshold
 physic particular electromagnet lorentz forc combin electr magnet forc point charg due electromagnet field
-particl charg q move veloc v presenc electr field e magnet field b experi forc f q e q v b displaystyl mathbf f q mathbf e q mathbf v time mathbf b si unit
 variat basic formula describ magnet forc current carri wire sometim call laplac forc electromot forc wire loop move magnet field aspect faraday law induct forc charg particl might travel near speed light relativist form lorentz forc
 first deriv lorentz forc common attribut oliv heavisid 1889 although historian suggest earlier origin 1865 paper jame clerk maxwel
 hendrik lorentz deriv 1895 year heavisid
@@ -7639,7 +7573,6 @@ lytic cycl result destruct infect cell membran
 lytic cycl key differ lytic lysogen phage cycl lytic phage viral dna exist separ molecul within bacteri cell replic separ host bacteri dna
 locat viral dna lysogen phage cycl within host dna therefor case virus phage replic use host dna machineri lytic phage cycl phage free float separ molecul host dna
 fluid dynam mach number german maχ dimensionless quantiti repres ratio flow veloc past boundari local speed sound
-u c displaystyl mathrm frac u c mach number u local flow veloc respect boundari either intern object immers flow extern like channel c speed sound medium
 definit mach 1 equal speed sound
 mach 0 65 65 speed sound subson mach 1 35 35 faster speed sound superson
 local speed sound therebi mach number depend condit surround medium particular temperatur
@@ -7759,7 +7692,7 @@ maillard reaction compound turn break form yet new flavor compound
 type food distinct set flavor compound form maillard reaction
 maillard reaction compound flavor scientist use year make artifici flavor
 maiz mayz zea may subsp
-maiz may spanish maíz taíno mahiz also known corn larg grain plant first domest indigen peopl southern mexico 10 000 year ago
+maiz may spanish maíz taíno mahiz also known corn cereal grain first domest indigen peopl southern mexico 10 000 year ago
 maiz leafi stalk plant produc separ pollen ovulifer infloresc ear fruit yield kernel seed
 maiz becom stapl food mani part world total product surpass wheat rice
 howev maiz maiz consum direct human
@@ -7796,12 +7729,8 @@ malaria approxim 90 case death occur africa
 malaria rate diseas decreas 2000 2015 37 increas 2014 198 million case
 malaria common associ poverti major negat effect econom develop
 africa malaria estim result loss us 12 billion year due increas healthcar cost lost abil work negat effect tourism
-mandelbrot set set complex number c displaystyl c function f c z z 2 c displaystyl f c z z 2 c diverg iter z 0 displaystyl z 0 e sequenc f c 0 displaystyl f c 0 f c f c 0 displaystyl f c f c 0 etc remain bound absolut valu
 definit name due adrien douadi tribut mathematician benoit mandelbrot
 set connect julia set relat julia set produc similar complex fractal shape
-mandelbrot set imag may creat sampl complex number determin sampl point c displaystyl c whether result iter function goe infin
-mandelbrot set treat real imaginari part c displaystyl c imag coordin x displaystyl x yi complex plane pixel may color accord rapid sequenc z n 2 c displaystyl z n 2 c diverg color 0 black usual use point sequenc diverg
-c displaystyl c held constant initi valu z displaystyl z denot z 0 displaystyl z 0 variabl instead one obtain correspond julia set point c displaystyl c paramet space simpl function
 imag mandelbrot set exhibit elabor infinit complic boundari reveal progress ever finer recurs detail increas magnif
 style repeat detail depend region set examin
 set boundari also incorpor smaller version main shape fractal properti self similar appli entir set part
@@ -7886,7 +7815,7 @@ marfan syndrom recommend hard exercis avoid
 marfan syndrom occur equal male femal
 marfan syndrom rate similar race differ region world
 name antoin marfan french pediatrician first describ condit 1896
-mari skłodowska curi french kyʁi polish kʲiˈri 7 novemb 1867 4 juli 1934 born maria salomea skłodowska ˈmarja salɔˈmɛa skwɔˈdɔfska polish natur french physicist chemist conduct pioneer research radioact
+mari skłodowska curi french kyʁi polish kʲiˈri born maria salomea skłodowska ˈmarja salɔˈmɛa skwɔˈdɔfska 7 novemb 1867 4 juli 1934 polish natur french physicist chemist conduct pioneer research radioact
 first woman win nobel prize first person woman win twice person win nobel prize two differ scienc part curi famili legaci five nobel prize
 also first woman becom professor univers pari 1995 becam first woman entomb mari curi merit panthéon pari
 mari curi born warsaw kingdom poland part russian empir
@@ -7904,24 +7833,12 @@ name first chemic element mari curi discov polonium isol 1898 nativ countri
 mari curi die 1934 age 66 sanatorium sancellemoz haut savoi franc aplast anemia exposur radiat cours scientif research cours radiolog work field hospit world war
 organ chemistri markovnikov rule markownikoff rule describ outcom addit reaction
 rule formul russian chemist vladimir vasilevich markovnikov 1865
-mar fourth planet sun second smallest planet solar system mercuri
-english mar carri name roman god war often refer red planet reddish iron oxid preval surfac give reddish appear distinct among astronom bodi visibl nake eye
-mar terrestri planet thin atmospher surfac featur reminisc impact crater moon valley desert polar ice cap earth
-rotat period season cycl mar likewis similar earth tilt produc season
-mar site olympus mon largest volcano second highest known mountain solar system vall marineri one largest canyon solar system
-mar smooth boreali basin northern hemispher cover 40 planet may giant impact featur
-mar two moon phobo deimo small irregular shape
-may captur asteroid similar 5261 eureka mar trojan
-ongo investig assess past habit potenti mar well possibl extant life
-futur astrobiolog mission plan includ mar 2020 exomar rover
-liquid water exist surfac mar due low atmospher pressur less 1 earth except lowest elev short period
-mar two polar ice cap appear made larg water
-mar volum water ice south polar ice cap melt would suffici cover entir planetari surfac depth 11 meter 36 ft
-novemb 2016 nasa report find larg amount underground ice utopia planitia region mar
-mar volum water detect estim equival volum water lake superior
-mar easili seen earth nake eye reddish color
-mar appar magnitud reach 2 91 surpass jupit venus moon sun
-optic ground base telescop typic limit resolv featur 300 kilomet 190 mi across earth mar closest earth atmospher
+mar mar discoveri district profit corpor found toronto 2000
+mar state goal commerci public fund medic research technolog help local privat enterpris public privat partnership
+part mar mission mar say mar help creat success global busi canada scienc technolog social innov
+mar 2014 startup compani emerg mar creat 4 000 job period 2011 2014 rais 750 million capit invest
+mar name mar origin drawn file name later attribut titl medic relat scienc
+sinc abandon mar associ also work field inform communic technolog engin social innov
 mass properti physic bodi measur resist acceler chang state motion net forc appli
 also determin strength mass mutual gravit attract bodi
 mass basic si unit mass kilogram kg
@@ -7956,7 +7873,6 @@ mass spectrometri result display spectra relat abund detect ion function mass ch
 mass spectrometri atom molecul sampl identifi correl known mass identifi mass characterist fragment pattern
 mathemat matrix plural matric rectangular array number symbol express arrang row column
 matrix ( mathemat ) exampl dimens matrix 2 3 read two three two row three column 1 9 13 20 5 6
-matrix ( mathemat ) displaystyl begin bmatrix 1 9 13 20 5 6 end bmatrix
 individu item n matrix often denot ai j max max j n call matrix ( mathemat ) element entri
 provid matrix ( mathemat ) size matrix number row number column two matric ad subtract element element see conform matrix
 matrix ( mathemat ) rule matrix multipl howev two matric multipli number column first equal number row second e inner dimens n n bn p
@@ -8038,12 +7954,8 @@ mani situat though deviat maxwel equat immeasur small
 maxwel 's equat except includ nonclass light photon photon scatter quantum optic mani phenomena relat photon virtual photon
 mean mathemat mean sever differ definit depend context
 probabl statist popul mean expect valu use synonym refer mean measur central tendenc either probabl distribut random variabl character distribut
-case discret probabl distribut random variabl x mean equal sum everi possibl valu weight probabl valu comput take product possibl valu x x probabl p x ad mean product togeth give μ x p x displaystyl mu sum xp x
 mean analog formula appli case continu probabl distribut
 mean everi probabl distribut defin mean see cauchi distribut exampl
-mean moreov distribut mean infinit exampl probabl valu 2 n displaystyl 2 n 1 2 n displaystyl tfrac 1 2 n n 1 2 3 data set term arithmet mean mathemat expect sometim averag use synonym refer central valu discret set number specif sum valu divid number valu
-mean arithmet mean set number x1 x2 xn typic denot x displaystyl bar x pronounc x bar
-data set base seri observ obtain sampl statist popul arithmet mean term sampl mean denot x displaystyl bar x distinguish mean popul mean denot μ displaystyl mu μ x displaystyl mu x
 mean finit popul popul mean properti equal arithmet mean given properti consid everi member popul
 mean exampl popul mean height equal sum height everi individu divid total number individu
 mean sampl mean may differ popul mean especi small sampl
@@ -8116,7 +8028,7 @@ melanin pheomelanin cystein contain red polym benzothiazin unit larg respons red
 neuromelanin found brain though melanin function remain obscur
 melanin human skin melanogenesi initi exposur uv radiat caus skin turn tan
 melanin effect absorb light pigment abl dissip 99 9 absorb uv radiat
-melanin properti melanin thought protect skin cell uvb radiat damag reduc risk cancer consid exposur uv radiat associ increas risk malign melanoma cancer melanocyt cell
+melanin properti melanin thought protect skin cell uvb radiat damag reduc risk cancer consid exposur uv radiat associ increas risk malign melanoma cancer melanocyt melanin cell
 melanin studi shown lower incid skin cancer individu concentr melanin e
 melanin darker skin tone
 melanin howev relationship skin pigment photoprotect still investig
@@ -8145,7 +8057,9 @@ memori also storag process becom corrupt physic damag area brain associ memori s
 memori final retriev inform long term memori disrupt decay within long term memori eysenck 2012
 memori normal function decay time brain damag affect accuraci capac memori
 memori loss usual describ forget amnesia
-mening mening singular meninx ancient greek μῆνιγξ mēninx membran adjectiv mening three membran envelop brain spinal cord
+mening mening singular meninx ancient greek μῆνιγξ translit
+mening mēninx lit
+mening membran adjectiv mening three membran envelop brain spinal cord
 mening mammal mening dura mater arachnoid mater pia mater
 mening cerebrospin fluid locat subarachnoid space arachnoid mater pia mater
 mening primari function mening protect central nervous system
@@ -8181,7 +8095,9 @@ two spacecraft visit mercuri marin 10 flew 1974 1975 messeng launch 2004 orbit m
 mercuri 13 refer thirteen american women part privat fund program underw physiolog screen test astronaut select nasa april 9 1959 project mercuri
 term coin 1995 hollywood produc jame cross comparison mercuri seven name given select male astronaut howev mercuri 13 part nasa astronaut program never flew space never met group
 meristem meristem tissu plant contain undifferenti cell meristemat cell found zone plant growth take place
-meristemat cell give rise various organ plant keep plant grow two type meristemat tissu 1 apic meristem 2 later meristem apic meristem two type shoot apic meristem sam give rise organ like leav flower root apic meristem ram provid meristemat cell futur root growth
+meristem meristemat cell give rise various organ plant keep plant grow
+meristem two type meristemat tissu apic extrem later side
+meristem two type apic meristem tissu shoot apic meristem sam give rise organ like leav flower root apic meristem ram provid meristemat cell futur root growth
 sam ram cell divid rapid consid indetermin meristem possess defin end status
 meristem sens meristemat cell frequent compar stem cell anim analog behavior function
 term meristem first use 1858 karl wilhelm von nägeli 1817 1891 meristem book beiträg zur wissenschaftlichen botanik contribut scientif botani
@@ -8394,9 +8310,8 @@ mitosi anim cell undergo shape chang known mitot cell round adopt near spheric m
 mitosi human cell produc mitot cell divis
 mitosi import except includ gamet sperm egg cell produc meiosi
 mohorovičić discontinu croatian pronunci moxorôʋiːt ʃit ɕ usual refer moho boundari earth crust mantl
-mohorovic discontinu name pioneer croatian seismologist andrija mohorovičić moho separ ocean crust continent crust under mantl
+name pioneer croatian seismologist andrija mohorovičić moho separ ocean crust continent crust under mantl mohorovičić discontinu first identifi 1909 mohorovičić observ seismogram shallow focus earthquak two set p wave wave one follow direct path near earth surfac refract high veloc medium
 moho lie almost entir within lithospher beneath mid ocean ridg mohorovic discontinu defin lithospher asthenospher boundari
-mohorovičić discontinu first identifi 1909 mohorovičić observ seismogram shallow focus earthquak two set p wave wave one follow direct path near earth surfac refract high veloc medium
 mohorovičić discontinu 5 10 kilometr 3 6 mi ocean floor 20 90 kilometr 10 60 mi beneath typic continent crust averag 35 kilometr 22 mi
 chemistri molecular orbit mo mathemat function describ wave like behavior electron molecul
 molecular orbit function use calcul chemic physic properti probabl find electron specif region
@@ -8444,15 +8359,13 @@ moment inertia otherwis known angular mass rotat inertia rigid bodi tensor deter
 moment inertia depend bodi mass distribut axi chosen larger moment requir torqu chang bodi rotat
 extens addit properti point mass moment inertia mass time squar perpendicular distanc rotat axi
 moment inertia rigid composit system sum moment inertia compon subsystem taken axi
-one definit second moment mass respect distanc axi r q r 2 displaystyl int q r 2 mathrm integr entir mass q displaystyl q
 bodi constrain rotat plane suffici consid moment inertia axi perpendicular plane
 bodi free rotat three dimens moment describ symmetr 3 3 matrix bodi set mutual perpendicular princip axe matrix diagon torqu around axe act independ
 momentum newtonian mechan linear momentum translat momentum simpli momentum pl
 momentum momenta product mass veloc object
 momentum three dimension vector quantiti possess direct magnitud
-object mass v veloc also vector momentum p v displaystyl mathbf p mathbf v si unit momentum measur kilogram meter per second kg
 newton second law motion state bodi rate chang momentum equal net forc act momentum
-momentum depend frame refer frame conserv quantiti mean close system affect extern forc total linear momentum chang
+momentum depend frame refer inerti frame conserv quantiti mean close system affect extern forc total linear momentum chang
 momentum also conserv special relat modifi formula modifi form electrodynam quantum mechan quantum field theori general relat
 express momentum fundament symmetri space time translat symmetri
 advanc formul classic mechan lagrangian hamiltonian mechan allow momentum choos coordin system incorpor symmetri constraint
@@ -8503,8 +8416,6 @@ mukaiyama aldol addit reason reaction use extens organ synthesi
 multipl often denot cross symbol point juxtaposit comput asterisk one four elementari mathemat oper arithmet other addit subtract divis
 multipl whole number may thought repeat addit multipl two number equival ad mani copi multipl multiplicand valu one multipli
 normal multipli written first multiplicand second though multipl vari languag
-multipl b b b displaystyl time b underbrac b cdot b exampl 4 multipli 3 often written 3 4 displaystyl 3 time 4 spoken 3 time 4 calcul ad 3 copi 4 togeth 3 4 4 4 4 12 displaystyl 3 time 4 4 4 4 12 3 4 factor 12 product
-multipl one main properti multipl commut properti ad 3 copi 4 give result ad 4 copi 3 4 3 3 3 3 3 12 displaystyl 4 time 3 3 3 3 3 12 thus design multipli multiplicand affect result multipl
 multipl integ includ negat number ration number fraction real number defin systemat general multipl basic definit
 multipl also visual count object arrang rectangl whole number find area rectangl whose side given length
 multipl area rectangl depend side measur first illustr commut properti
@@ -8613,7 +8524,6 @@ use form natur rubber larg stretch ratio high resili extrem waterproof
 physic navier stoke equat name claud loui navier georg gabriel stoke describ motion viscous fluid substanc
 balanc equat aris appli newton second law fluid motion togeth assumpt stress fluid sum diffus viscous term proport gradient veloc pressur term henc describ viscous flow
 main differ simpler euler equat inviscid flow navier stoke equat also factor froud limit extern field conserv equat rather dissip system sens put quasilinear homogen form x 0
-navier-stok equat displaystyl mathbf mathbf mathbf mathbf x 0
 navier stoke equat use describ physic mani phenomena scientif engin interest
 navier-stok equat may use model weather ocean current water flow pipe air flow around wing
 navier stoke equat full simplifi form help design aircraft car studi blood flow design power station analysi pollut mani thing
@@ -8719,31 +8629,12 @@ neptun faint fragment ring system label arc discov 1982 later confirm voyag 2
 electrochemistri nernst equat equat relat reduct potenti electrochem reaction half cell full cell reaction standard electrod potenti temperatur activ often approxim concentr chemic speci undergo reduct oxid
 import equat field electrochemistri
 name german physic chemist first formul walther nernst
-neuron neuron also known neuron nerv cell late 20th centuri term neuron common neuron standard scientif usag nerv cell electr excit cell receiv process transmit inform electr chemic signal
-neuron signal neuron occur via special connect call synaps
-neuron neuron connect form neural network
-neuron neuron primari compon central nervous system includ brain spinal cord peripher nervous system compris autonom nervous system somat nervous system
-neuron mani type special neuron
-sensori neuron respond one particular type stimuli touch sound light stimuli affect cell sensori organ convert neuron electr signal via transduct sent spinal cord brain
-neuron motor neuron receiv signal brain spinal cord caus everyth muscl contract affect glandular output
-neuron interneuron connect neuron neuron within region brain spinal cord neural network
-neuron typic neuron consist cell bodi soma dendrit axon
-term neurit use describ either dendrit axon particular neuron undifferenti stage
-neuron dendrit thin structur aris cell bodi often extend hundr micromet branch multipl time give rise complex dendrit tree
-neuron axon also call nerv fiber myelin special cellular extens process aris cell bodi site call axon hillock travel distanc far 1 meter human even speci
-neuron neuron receiv signal via dendrit send signal axon
-neuron numer axon also known nerv fiber often bundl fascicl peripher nervous system bundl fascicl make refer nerv like strand wire make cabl
-cell bodi neuron frequent give rise multipl dendrit never one axon although axon may branch hundr time neuron termin
-major synaps signal sent axon neuron neuron dendrit anoth
-howev mani except neuron rule exampl neuron lack dendrit axon synaps connect axon anoth axon dendrit anoth dendrit
-neuron electr excit due mainten voltag gradient across neuron membran mean metabol driven ion pump combin ion channel embed membran generat intracellular versus extracellular concentr differ ion sodium potassium chlorid calcium
-neuron chang cross membran voltag alter function voltag depend ion channel
-voltag chang larg enough amount none electrochem puls call action potenti generat neuron chang cross membran potenti travel rapid along cell axon activ synapt connect cell arriv
-neuron case neuron generat special type stem cell brain develop childhood
-neuron neuron adult brain general undergo cell divis
-neuron astrocyt star shape glial cell also observ turn neuron virtu stem cell characterist pluripot
-neuron neurogenesi larg ceas adulthood area brain
-neuron howev strong evid generat substanti number new neuron two brain area hippocampus olfactori bulb
+neuron dassault neuron experiment unman combat aerial vehicl ucav develop intern cooper led french compani dassault aviat
+countri involv neuron project includ franc greec itali spain sweden switzerland
+neuron design goal creat stealthi autonom uav function medium high threat combat zone
+neuron compar project includ british bae system tarani german ead barracuda american boe x 45 northrop grumman x 47b indian drdo aura russian mikoyan skat
+industri goal give european firm experi design build high end uav associ technolog order keep neuron competit global marketplac
+neuron first flight took place decemb 1 2012
 neutrino neutrino denot greek letter ν fermion elementari particl half integ spin interact via weak subatom forc graviti
 neutrino mass neutrino much smaller known elementari particl
 neutrino name neutrino electr neutral rest mass small ino origin thought zero
@@ -9153,12 +9044,10 @@ obsidian common found within margin rhyolit lava flow known obsidian flow chemic
 inhibit atom diffus obsidian high viscous polymer lava explain lack crystal growth
 obsidian hard brittl therefor fractur sharp edg use past cut pierc tool use experiment surgic scalpel blade
 ohm law state current conductor two point direct proport voltag across two point
-introduc constant proport resist one arriv usual mathemat equat describ ohm 's law relationship v r displaystyl frac v r current conductor unit amper v voltag measur across conductor unit volt r resist conductor unit ohm
 specif ohm law state r relat constant independ current
 law name german physicist georg ohm treatis publish 1827 describ measur appli voltag current simpl electr circuit contain various length wire
 ohm explain experiment result slight complex equat modern form see histori
 physic term ohm law also use refer various general law origin formul ohm
-simplest exampl ohm 's law j σ e displaystyl mathbf j sigma mathbf e j current densiti given locat resist materi e electr field locat σ sigma materi depend paramet call conduct
 reformul ohm law due gustav kirchhoff
 okazaki fragment short newli synthes dna fragment form lag templat strand dna replic
 okazaki fragment complementari lag templat strand togeth form short doubl strand dna section
@@ -9215,7 +9104,7 @@ olympus mon western portion volcano lie amazoni quadrangl mc 8 central eastern p
 two impact crater olympus mon assign provision name intern astronom union
 olympus mon 15 6 km 9 7 mi diamet karzok crater 18 25 n 131 55 w 10 4 km 6 5 mi diamet pangboch crater 17 10 n 133 35 w
 olympus mon crater notabl two sever suspect sourc area shergottit abund class martian meteorit
-oort cloud name dutch astronom jan oort sometim call öpik oort cloud theoret cloud predomin ici planetesim believ surround sun far somewher 50 000 200 000 au 0 8 3 2 ly
+oort cloud name dutch astronom jan oort sometim call öpik oort cloud theoret cloud predomin ici planetesim propos surround sun far somewher 50 000 200 000 au 0 8 3 2 ly
 divid two region disc shape inner oort cloud hill cloud spheric outer oort cloud
 oort cloud region lie beyond heliospher interstellar space
 kuiper belt scatter disc two reservoir tran neptunian object less one thousandth far sun oort cloud
@@ -9354,7 +9243,7 @@ precis ph negat base 10 logarithm activ hydrogen ion
 ph solut ph less 7 acid solut ph greater 7 basic
 ph pure water neutral ph 7 25 c neither acid base
 ph contrari popular belief ph valu less 0 greater 14 strong acid base respect
-ph ph measur import agronomi medicin biolog chemistri agricultur forestri food scienc environment scienc oceanographi civil engin chemic engin nutrit water treatment water purif well mani applic
+ph measur ph import agronomi medicin biolog chemistri agricultur forestri food scienc environment scienc oceanographi civil engin chemic engin nutrit water treatment water purif mani applic
 ph ph scale traceabl set standard solut whose ph establish intern agreement
 ph primari ph standard valu determin use concentr cell transfer measur potenti differ hydrogen electrod standard electrod silver chlorid electrod
 ph ph aqueous solut measur glass electrod ph meter indic
@@ -9571,7 +9460,6 @@ number theori perfect number posit integ equal sum proper posit divisor sum posi
 equival perfect number number half sum posit divisor includ e
 perfect number σ1 n 2n
 definit ancient appear earli euclid element vii 22 call τέλειος ἀριθμός perfect ideal complet number
-euclid also prove format rule ix 36 wherebi q q 1 2 displaystyl q q 1 2 even perfect number whenev q displaystyl q prime form 2 p 1 displaystyl 2 p 1 prime p displaystyl p call mersenn prime
 much later euler prove even perfect number perfect number form
 perfect number known euclid euler theorem
 perfect number known whether odd perfect number whether infinit mani perfect number exist
@@ -9885,6 +9773,7 @@ convers crystal chang 0 1 piezoelectr static dimens extern electr field appli ma
 piezoelectr invers piezoelectr effect use product ultrason sound wave
 piezoelectr found use applic product detect sound generat high voltag electron frequenc generat microbal drive ultrason nozzl ultrafin focus optic assembl
 piezoelectr also basi number scientif instrument techniqu atom resolut scan probe microscopi stm afm mta snom etc everyday use act ignit sourc cigarett lighter push start propan barbecu well time refer sourc quartz watch
+piezoelectr part electr type ferro ferric pyro
 pineal gland also known conarium epiphysi cerebri small endocrin gland vertebr brain
 pineal gland produc melatonin serotonin deriv hormon modul sleep pattern circadian season cycl shape gland resembl pine cone henc name
 pineal gland locat epithalamus near center brain two hemispher tuck groov two halv thalamus join
@@ -9908,7 +9797,7 @@ pion charg pion often decay muon muon neutrino neutral pion general decay gamma 
 pion exchang virtual pion along vector rho omega meson provid explan residu strong forc nucleon
 pion pion produc radioact decay common produc high energi acceler collis hadron
 pion type pion also produc natur process high energi cosmic ray proton hadron cosmic ray compon interact matter earth atmospher
-pion recent detect characterist gamma ray origin decay neutral pion two supernova remnant star shown pion produc copious supernova probabl conjunct product high energi proton detect earth cosmic ray
+pion recent detect characterist gamma ray origin decay neutral pion two supernova remnant shown pion produc copious supernova probabl conjunct product high energi proton detect earth cosmic ray
 pion concept meson carrier particl nuclear forc first propos 1935 hideki yukawa
 muon first propos pion particl discoveri 1936 later work found particip strong nuclear interact
 pion pion turn exampl yukawa propos meson discov later charg pion 1947 neutral pion 1950
@@ -9934,23 +9823,16 @@ first recogn 1900 max planck conceiv proport constant minim increment energi e h
 planck constant 1905 valu e minim energi increment hypothet oscil theoret associ albert einstein quantum minim element energi electromagnet wave
 planck constant light quantum behav respect electr neutral particl oppos electromagnet wave
 planck constant eventu call photon
-planck einstein relat connect particul photon energi e associ wave frequenc f e h f displaystyl e hf energi extrem small term ordinarili perceiv everyday object
-planck constant sinc frequenc f wavelength λ speed light c relat f c λ displaystyl f frac c lambda relat also express e h c λ
-planck constant displaystyl e frac hc lambda
 lead anoth relationship involv planck constant
 planck constant p denot linear momentum particl photon elementari particl well de brogli wavelength λ particl given λ h p
-planck constant displaystyl lambda frac h p
 applic planck constant natur use angular frequenc e
 frequenc express term radian per second instead cycl per second hertz often use absorb factor 2π planck constant
 result constant call reduc planck constant dirac constant
 equal planck constant divid 2π denot ħ pronounc h bar ℏ h 2 π
-planck constant displaystyl hbar frac h 2 pi
-energi photon angular frequenc ω 2πf given e ℏ ω displaystyl e hbar omega planck constant linear momentum relat p ℏ k displaystyl p hbar k k wavenumb
 1923 loui de brogli general planck einstein relat postul planck constant repres proport momentum quantum wavelength photon quantum wavelength particl
 planck constant confirm experi soon afterward
 planck constant hold throughout quantum theori includ electrodynam
 planck constant two relat tempor spatial compon part special relativist express use 4 vector
-p μ e c p ℏ k μ ℏ ω c k displaystyl p mu left frac e c vec p right hbar k mu hbar left frac omega c vec k right classic statist mechan requir exist h defin planck constant valu
 eventu follow upon planck discoveri recogn physic action take arbitrari valu
 instead must multipl small quantiti quantum action call planck constant
 call old quantum theori develop bohr sommerfeld particl trajectori exist hidden quantum law constrain base planck constant action
@@ -9972,7 +9854,7 @@ plasma ( physic ) base surround environment temperatur densiti partial ionis ful
 plasma ( physic ) neon sign lightn storm exampl partial ionis plasma interior sun exampl fulli ionis plasma along solar corona star
 plasma ( physic ) posit charg ion achiev strip away electron atom nuclei
 plasma ( physic ) number electron remov relat either increas temperatur local densiti ionis matter
-also accompani dissoci molecular bond though plasma ( physic ) process distinct differ chemic process ion interact liquid behavior ion exist metal
+also accompani dissoci molecular bond though plasma ( physic ) process distinct differ chemic process ion interact liquid behavior share ion metal
 plasma ( physic ) respons plasma electromagnet field use employ mani modern technolog devic plasma televis plasma etch
 plasma may abund form ordinari matter univers although hypothesi current tentat base exist unknown properti dark matter
 plasma most associ star extend rarefi intraclust medium possibl intergalact region
@@ -10153,10 +10035,11 @@ poliomyel may also spread food water contain human fece less common infect saliv
 poliomyel infect may spread diseas six week even symptom present
 diseas may diagnos find virus fece detect antibodi poliomyel blood
 poliomyel diseas occur natur human
-diseas prevent polio vaccin howev number dose requir poliomyel effect
+diseas prevent polio vaccin howev multipl dose requir poliomyel effect
 poliomyel us center diseas control prevent recommend polio vaccin booster travel live countri diseas occur
 poliomyel infect specif treatment
-poliomyel 2016 polio affect 42 peopl 350 000 case 1988
+poliomyel 2016 37 case wild polio 5 case vaccin deriv polio
+poliomyel 350 000 wild case 1988
 poliomyel 2014 diseas spread peopl afghanistan nigeria pakistan
 2015 nigeria stop spread wild poliovirus poliomyel reoccur 2016
 poliomyel exist thousand year depict diseas ancient art
@@ -10290,9 +10173,8 @@ potenti energi forc call conserv forc repres everi point space vector express gr
 sinc work potenti forc act bodi move start end posit determin two posit depend trajectori bodi function known potenti potenti energi evalu two posit determin work
 physic power rate work amount energi transfer per unit time
 direct power ( physic ) scalar quantiti
-power ( physic ) intern system unit unit power joul per second j known watt honour jame watt eighteenth centuri develop steam engin
+power ( physic ) intern system unit unit power joul per second j known watt honour jame watt eighteenth centuri develop steam engin condens
 power ( physic ) anoth common tradit measur horsepow compar power hors
-power ( physic ) rate work equat power written power work time displaystyl text power frac text work text time integr power time defin work perform
 power ( physic ) integr depend trajectori point applic forc torqu calcul work said path depend
 power ( physic ) physic concept power requir chang physic univers specifi time chang occur
 power ( physic ) distinct concept work measur term net chang state physic univers
@@ -10326,7 +10208,6 @@ uniqu prime number theorem requir exclud 1 prime one includ arbitrarili mani ins
 prime number valid factor 3
 prime number properti prime call primal
 simpl slow method verifi primal given number n known trial divis
-prime number consist test whether n multipl integ 2 n displaystyl sqrt n
 prime number algorithm much effici trial divis devis test primal larg number
 prime number includ miller rabin primal test fast small probabl error ak primal test alway produc correct answer polynomi time slow practic
 prime number particular fast method avail number special form mersenn number
@@ -10512,7 +10393,7 @@ pyrrol substitut deriv also call pyrrol e g n methylpyrrol c4h4nch3
 pyrrol porphobilinogen trisubstitut pyrrol biosynthet precursor mani natur product heme
 pyrrol pyrrol compon complex macrocycl includ porphyrinogen product deriv therefrom includ porphyrin heme chlorin bacteriochlorin chlorophyl
 pythagora samo us uk greek πυθαγόρας ὁ σάμιος pythagóra ho sámio pythagora samian simpli πυθαγόρας πυθαγόρης ionian greek c 570 495 bc ionian greek philosoph eponym founder pythagorean movement
-polit religi teach extrem influenti magna graecia throughout antiqu exert profound impact philosophi plato aristotl pythagora western philosophi larg
+polit religi teach extrem influenti magna graecia throughout antiqu exert profound impact philosophi plato aristotl pythagora western philosophi
 pythagora life larg cloud legend obfusc appear son mnesarchus seal engrav island samo
 modern scholar disagre regard pythagora educ influenc agre around 530 bc travel croton found school initi sworn secreci live communal ascet lifestyl
 follow croton decis victori sybari around 510 bc pythagora follow came conflict support democraci pythagorean meet hous burn
@@ -10526,7 +10407,6 @@ nonetheless mani accomplish credit pythagora probabl either origin earlier made 
 account mention philosophi associ pythagora relat mathemat number import debat extent actual contribut mathemat natur philosophi
 mathemat pythagorean theorem also known pythagora theorem fundament relat euclidean geometri among three side right triangl
 pythagorean theorem state squar hypotenus side opposit right angl equal sum squar two side
-theorem written equat relat length side b c often call pythagorean equat 2 b 2 c 2 displaystyl 2 b 2 c 2 c repres length hypotenus b length triangl two side
 although often argu knowledg theorem predat theorem name ancient greek mathematician pythagora c 570 495 bc tradit credit first record proof
 evid babylonian mathematician understood formula although littl pythagorean theorem indic applic within mathemat framework
 mesopotamian indian chines mathematician discov theorem independ case provid proof special case
@@ -10542,9 +10422,6 @@ support multipl program paradigm includ object orient imper function procedur la
 python interpret avail mani oper system
 cpython refer implement python open sourc softwar communiti base develop model near variant implement
 cpython manag non profit python softwar foundat
-quantum hall effect integ quantum hall effect quantum mechan version hall effect observ two dimension electron system subject low temperatur strong magnet field hall conduct σ undergo quantum hall transit take quantiz valu σ channel v hall ν e 2 h displaystyl sigma frac text channel v text hall nu frac e 2 h channel displaystyl text channel channel current v hall displaystyl v text hall hall voltag e elementari charg h planck constant
-quantum hall effect prefactor ν displaystyl nu known fill factor take either integ ν displaystyl nu 1 2 3 fraction ν displaystyl nu 1 3 2 5 3 7 2 3 3 5 1 5 2 9 3 13 5 2 12 5 valu
-quantum hall effect refer integ fraction quantum hall effect depend whether ν displaystyl nu integ fraction respect
 strike featur integ quantum hall effect persist quantize e
 hall plateau electron densiti vari
 sinc electron densiti remain constant fermi level clean spectral gap quantum hall effect situat correspond one fermi level energi finit densiti state though state local see anderson local
@@ -10641,7 +10518,6 @@ quaternion quaternion find use theoret appli mathemat particular calcul involv t
 practic applic quaternion use alongsid method euler angl rotat matric altern depend applic
 quaternion modern mathemat languag quaternion form four dimension associ norm divis algebra real number therefor also domain
 quaternion fact quaternion first noncommut divis algebra discov
-quaternion algebra quaternion often denot h hamilton blackboard bold h displaystyl mathbb h unicod u 210d ℍ
 quaternion also given clifford algebra classif cℓ0 2 r cℓ03 0 r
 algebra h hold special place analysi sinc accord frobenius theorem quaternion one two finit dimension divis ring contain real number proper subr complex number
 quaternion ring also euclidean hurwitz algebra quaternion largest associ algebra
@@ -10685,13 +10561,13 @@ rna interfer also influenc develop
 rnai pathway found mani eukaryot includ anim initi enzym dicer cleav long doubl strand rna dsrna molecul short doubl strand fragment 20 nucleotid sirna
 rna interfer sirna unwound two singl strand rnas ssrnas passeng strand guid strand
 passeng strand degrad guid strand incorpor rna induc silenc complex risc
-well studi outcom post transcript gene silenc occur guid strand pair complementari sequenc messeng rna molecul induc cleavag argonaut 2 ago2 catalyt compon risc complex
+well studi outcom post transcript gene silenc occur guid strand pair complementari sequenc messeng rna molecul induc cleavag argonaut 2 ago2 catalyt compon risc
 organ rna interfer process spread system despit initi limit molar concentr sirna
 rna interfer rnai valuabl research tool cell cultur live organ synthet dsrna introduc cell select robust induc suppress specif gene interest
 rna interfer rnai may use larg scale screen systemat shut gene cell help identifi compon necessari particular cellular process event cell divis
 rna interfer pathway also use practic tool biotechnolog medicin insecticid
 rna polymeras ribonucl acid polymeras abbrevi rnap rnapol offici name dna direct rna polymeras member famili enzym essenti life found organ speci mani virus
-rnap local open doubl strand dna usual four turn helix one strand expos nucleotid use templat synthesi rna process call transcript
+rnap local open doubl strand dna usual four turn doubl helix one strand expos nucleotid use templat synthesi rna process call transcript
 transcript factor rna polymeras associ transcript mediat complex must attach dna bind site call promot region rnap initi dna unwind posit
 rnap intrins helicas activ therefor separ enzym need unwind dna contrast dna polymeras
 rnap initi rna transcript also guid nucleotid posit facilit attach elong intrins proofread replac capabl termin recognit capabl
@@ -10816,7 +10692,6 @@ past photomultipli detector choic dispers raman setup result long acquisit time
 howev modern instrument almost univers employ notch edg filter laser reject spectrograph either axial transmiss czerni turner ct monochrom ft fourier transform spectroscopi base ccd detector
 advanc type raman spectroscopi includ surfac enhanc raman reson raman tip enhanc raman polar raman stimul raman analog stimul emiss transmiss raman spatial offset raman hyper raman
 random walk mathemat object known stochast random process describ path consist success random step mathemat space integ
-elementari exampl random walk random walk integ number line z displaystyl mathbb z start 0 step move 1 1 equal probabl
 exampl includ path trace molecul travel liquid gas search path forag anim price fluctuat stock financi status gambler approxim random walk model even though may truli random realiti
 random walk illustr exampl random walk applic mani scientif field includ ecolog psycholog comput scienc physic chemistri biolog well econom
 random walk explain observ behavior mani process field thus serv fundament model record stochast activ
@@ -10835,11 +10710,8 @@ sever properti includ dispers distribut first passag hit time encount rate recur
 raoult law law law thermodynam establish french chemist françoi mari raoult 1887
 state partial vapor pressur compon ideal mixtur liquid equal vapor pressur pure compon multipli raoult 's law mole fraction mixtur
 word raoult 's law state relat lower vapour pressur dilut solut contain nonvolatil solut equal mole fraction solut solut
-mathemat raoult law singl compon ideal solut state p p x displaystyl p p star x p displaystyl p partial vapor pressur compon displaystyl gaseous mixtur solut p displaystyl p star vapor pressur pure compon displaystyl x displaystyl x mole fraction compon displaystyl mixtur solut
-compon solut reach equilibrium total vapor pressur solut determin combin raoult law dalton law partial pressur give p p x p b x b displaystyl p p rm star x rm p rm b star x rm b cdot
 raoult 's law non volatil solut zero vapor pressur evapor dissolv solvent form ideal solut vapor pressur final solut lower solvent
 raoult 's law decreas vapor pressur direct proport mole fraction solut ideal solut
-raoult 's law p p x displaystyl p p rm star x rm δ p p p p 1 x p x b displaystyl delta p p rm star p p rm star 1 x rm p rm star x rm b
 rayleigh scatter pronounc ray lee name british physicist lord rayleigh john william strutt domin elast scatter light electromagnet radiat particl much smaller wavelength radiat
 rayleigh scatter chang state materi henc parametr process
 rayleigh scatter particl may individu atom molecul
@@ -10933,9 +10805,7 @@ owe chang medium phase veloc wave chang refract frequenc remain constant
 common observ wave pass refract medium anoth angl 0 normal
 refract light common observ phenomenon type wave refract interact medium exampl sound wave pass one medium anoth water wave move water differ depth
 refract follow snell law state given pair media wave singl frequenc ratio sine angl incid θ1 angl refract θ2 equival ratio phase veloc v1 v2 two media equival relat indic refract n2 n1 two media
-epsilon ϵ displaystyl epsilon mu μ displaystyl mu repres dielectr constant magnet moment differ media sin θ 1 sin θ 2 v 1 v 2 n 2 n 1 ϵ 2 μ 2 ϵ 1 μ 1 displaystyl frac sin theta 1 sin theta 2 frac v 1 v 2 frac n 2 n 1 sqrt left frac epsilon 2 mu 2 epsilon 1 mu 1 right general incid wave partial refract partial reflect intern refract detail refract behavior describ fresnel equat
 optic refract index index refract materi dimensionless number describ light propag medium
-refract index defin n c v displaystyl n frac c v c speed light vacuum v phase veloc light medium
 exampl refract index water 1 333 mean light travel 1 333 time slower water vacuum
 refract index determin much path light bent refract enter materi
 refract index first document use refract indic describ snell law refract n1 sinθ1 n2 sinθ2 θ1 θ2 angl incid refract respect ray cross interfac two media refract indic n1 n2
@@ -10995,8 +10865,7 @@ insid prokaryot restrict enzym select cut foreign dna process call restrict mean
 togeth restrict enzym two process form restrict modif system
 3000 restrict enzym studi detail 600 restrict enzym avail commerci
 enzym routin use dna modif laboratori restrict enzym vital tool molecular clone
-retina retina uk ret nə us ret ə nə pl
-retina retina latin rēte mean net third inner coat eye light sensit layer tissu
+retina retina third inner coat eye light sensit layer tissu
 retina optic eye creat imag visual world retina cornea len serv much function film camera
 retina light strike retina initi cascad chemic electr event ultim trigger nerv impuls
 retina sent various visual centr brain fibr optic nerv
@@ -11011,6 +10880,7 @@ third retina photoreceptor photosensit ganglion cell import entrain reflex respo
 retina neural signal rod cone undergo process neuron retina
 retina output take form action potenti retin ganglion cell whose axon form optic nerv
 retina sever import featur visual percept trace retin encod process light
+retina term latin rēte mean net
 revers transcriptas rt enzym use generat complementari dna cdna rna templat process term revers transcript
 revers transcriptas main associ retrovirus
 revers transcriptas howev non retrovirus also use rt exampl hepat b virus member hepadnavirida dsdna rt virus retrovirus ssrna virus
@@ -11449,7 +11319,7 @@ base silurian set major ordovician silurian extinct event 60 marin speci wipe
 signific evolutionari mileston silurian diversif jaw boni fish
 multi cellular life also began appear land form small bryophyt like vascular plant grew besid lake stream coastlin terrestri arthropod also first found land silurian
 silurian howev terrestri life would great diversifi affect landscap devonian
-silver chemic element symbol ag latin argentum deriv greek ὰργὀς shini white atom number 47
+silver chemic element symbol ag latin argentum deriv greek ἀργός shini white atom number 47
 soft white lustrous transit metal silver exhibit highest electr conduct thermal conduct reflect metal
 silver metal found earth crust pure free element form nativ silver alloy gold metal miner argentit chlorargyrit
 silver silver produc byproduct copper gold lead zinc refin
@@ -11687,7 +11557,7 @@ local lorentz invari frame abid special relat defin suffici small scale even cur
 galileo galilei alreadi postul absolut well defin state rest privileg refer frame principl call galileo principl relat
 einstein extend special relat principl account constant speed light phenomenon recent observ michelson morley experi
 also postul special relat hold law physic includ law mechan electrodynam
-speciat evolutionari process biolog popul evolv becom distinct speci
+speciat evolutionari process popul evolv becom distinct speci
 speciat biologist orat f cook coin term speciat 1906 split lineag cladogenesi oppos anagenesi phylet evolut within lineag
 charl darwin first describ role natur select speciat speciat 1859 book origin speci
 also identifi sexual select like mechan found speciat problemat
@@ -11780,7 +11650,7 @@ spinneret ( spider ) move independ concert
 spinneret simpl structur singl orific produc singl thread high complex structur mani microscop spigot produc spinneret ( spider ) filament
 import part spinneret ( spider ) produc necessari orient protein molecul without silk would weak useless
 spinneret ( spider ) also permit spider combin multipl filament differ way produc mani kind silk special purpos
-various speci spider use silk extrud spinneret build web entrap insect run round spinneret ( spider ) make egg case catch wind fli balloon etc
+various speci spider use silk extrud spinneret build web transfer sperm entrap insect wrap spinneret ( spider ) around make egg case catch wind fli balloon etc
 insect larva includ silkworm extrud silk make protect cocoon spinneret ( spider ) metamorphosi
 spinneret ( spider ) insect known web spinner weav silken galleri protect predat element forag breed
 spinneret ( spider ) observ suggest might silk produc organ feet zebra tarantula aphonopelma seemanni led question origin spinneret
@@ -11800,7 +11670,7 @@ most found low densiti region rare center galaxi cluster
 spleen spleen greek σπλήν splḗn organ found virtual vertebr
 similar structur larg lymph node spleen act primarili blood filter
 spleen spleen play import role regard red blood cell also refer erythrocyt immun system
-spleen remov old red blood cell hold reserv blood valuabl case hemorrhag shock also recycl iron
+spleen remov old red blood celhich valuabl case hemorrhag shock also recycl iron
 part mononuclear phagocyt system spleen metabol hemoglobin remov senesc red blood cell erythrocyt
 globin portion hemoglobin degrad spleen constitut amino acid heme portion metabol bilirubin remov liver
 spleen synthes antibodi spleen white pulp remov antibodi coat bacteria antibodi coat blood cell way blood lymph node circul
@@ -11814,6 +11684,8 @@ multicellular parazoan organ bodi full pore channel allow water circul spong con
 spong spong unspeci cell transform type often migrat main cell layer mesohyl process
 spong spong nervous digest circulatori system
 instead reli maintain constant water flow spong bodi obtain food oxygen remov wast
+spong spong sister anim
+spong spong first branch evolutionari tree common ancestor anim
 spontan symmetri break spontan process symmetri break physic system symmetr state end asymmetr state
 particular describ system equat motion lagrangian obey symmetri lowest energi vacuum solut exhibit symmetri
 system goe one vacuum solut symmetri broken perturb around vacuum even though entir lagrangian retain symmetri
@@ -11964,7 +11836,6 @@ first strang particl particl contain strang quark discov 1947 kaon exist strang 
 strang quark first evid exist quark came 1968 deep inelast scatter experi stanford linear acceler center
 experi confirm exist quark extens strang quark strang quark requir explain eightfold way
 strang particl physic strang properti particl express quantum number describ decay particl strong electromagnet interact occur short period time
-strang strang particl defin n n displaystyl n n bar ns repres number strang quark ns repres number strang antiquark
 term strang strang predat discoveri quark adopt strang discoveri order preserv continu phrase strang anti particl refer 1 particl 1 per origin definit
 strang quark flavour quantum number strang charm top bottom convent flavour charg electr charg quark sign
 strang flavour carri charg meson sign charg
@@ -12427,7 +12298,7 @@ theori transform theoret physic astronomi 20th centuri supersed 200 year old the
 introduc concept includ spacetim unifi entiti space time relat simultan kinemat gravit time dilat length contract
 field physic relat improv scienc elementari particl fundament interact along usher nuclear age
 relat cosmolog astrophys predict extraordinari astronom phenomena neutron star black hole gravit wave
-thermoelectr effect direct convers temperatur differ electr voltag vice versa
+thermoelectr effect direct convers temperatur differ electr voltag vice versa via thermocoupl
 thermoelectr effect # seebeck effect thermoelectr devic creat voltag differ temperatur side
 convers voltag appli thermoelectr effect # seebeck effect creat temperatur differ
 thermoelectr effect # seebeck effect atom scale appli temperatur gradient caus charg carrier materi diffus hot side cold side
@@ -12479,7 +12350,6 @@ thoma young ( scientist ) mention among other william herschel hermann von helmh
 young describ last man knew everyth
 thomson scatter elast scatter electromagnet radiat free charg particl describ classic electromagnet
 low energi limit compton scatter particl kinet energi photon frequenc chang result scatter
-thomson scatter limit valid long photon energi much less mass energi particl ν c 2 h displaystyl nu mc 2 h equival wavelength light much greater compton wavelength particl
 thymus thymus special primari lymphoid organ immun system
 thymus within thymus cell matur
 thymus cell critic adapt immun system bodi adapt specif foreign invad
@@ -12661,16 +12531,12 @@ tornado doppler radar data photogrammetri ground swirl pattern cycloid mark may 
 torqu moment moment forc rotat forc
 torqu linear forc push pull torqu thought twist object
 torqu mathemat torqu defin cross product vector forc applic point offset relat fix suspens point distanc vector forc vector tend produc rotat motion
-torqu symbol torqu typic τ displaystyl tau lowercas greek letter tau
 torqu call moment forc common denot magnitud torqu depend three quantiti forc appli length lever arm connect axi point forc applic angl forc vector lever arm
-torqu symbol τ r f displaystyl boldsymbol tau mathbf r time mathbf f
-torqu τ r f sin θ displaystyl tau mathbf r mathbf f sin theta
-torqu τ displaystyl boldsymbol tau torqu vector τ displaystyl tau magnitud torqu r posit vector vector origin coordin system defin point forc appli f forc vector denot cross product θ angl forc vector lever arm vector
 torqu si unit torqu newton metr n
 torqu unit torqu see unit
 torus geometri torus plural tori surfac revolut generat revolv circl three dimension space axi coplanar circl
 torus axi revolut touch circl surfac ring shape call torus revolut
-torus real world exampl toroid object includ inner tube ring doughnut bagel
+torus real world exampl toroid object includ inner tube
 torus torus confus solid torus form rotat disc rather circl around axi
 torus solid torus torus plus volum insid torus
 torus real world approxim includ doughnut mani lifebuoy ring
@@ -12693,7 +12559,6 @@ best known transcendent number π e though class transcendent number known part 
 transcendent number inde almost real complex number transcendent sinc algebra number countabl set real complex number uncount
 transcendent number real transcendent number irrat sinc ration number algebra
 convers true irrat number transcendent e g squar root 2 irrat transcendent number sinc solut polynomi equat x2 2 0
-anoth irrat number transcendent golden ratio φ displaystyl varphi ϕ displaystyl phi sinc solut polynomi equat x2 x 1 0
 transcript first step gene express particular segment dna copi rna especi mrna enzym rna polymeras
 transcript ( genet ) dna rna nucleic acid use base pair nucleotid complementari languag
 transcript ( genet ) transcript dna sequenc read rna polymeras produc complementari antiparallel rna strand call primari transcript
@@ -12775,15 +12640,12 @@ root tree defin author direct graph
 tree ( graph theori ) term tree coin 1857 british mathematician arthur cayley
 triangl triangl polygon three edg three vertic
 triangl basic shape geometri
-triangl triangl vertic b c denot b c displaystyl triangl abc
 triangl euclidean geometri three point non collinear determin uniqu triangl simultan uniqu plane e
 triangl two dimension euclidean space
 word triangl plane contain triangl everi triangl contain plane
 entir geometri euclidean plane one plane triangl contain howev higher dimension euclidean space triangl longer true
 triangl articl triangl euclidean geometri particular euclidean plane except otherwis note
 mathemat triangl inequ state triangl sum length two side must greater equal length remain side
-x z length side triangl side greater z triangl inequ state z x displaystyl z leq x equal degener case triangl zero area
-euclidean geometri geometri triangl inequ theorem distanc written use vector vector length norm x x displaystyl mathbf x mathbf leq mathbf x mathbf length z third side replac vector sum x
 x real number view vector ℝ1 triangl inequ express relationship absolut valu
 euclidean geometri right triangl triangl inequ consequ pythagorean theorem general triangl consequ law cosin although may proven without theorem
 inequ view intuit either ℝ2 ℝ3
@@ -12833,6 +12695,7 @@ triton surfac most frozen nitrogen most water ice crust ici mantl substanti core
 core make two third triton ( moon ) total mass
 triton mean densiti 2 061 g cm3 compos approxim 15 35 water ice
 triton one moon solar system known geolog activ other jupit io saturn enceladus
+also second biggest ratio moon planet neptun lower ratio earth moon
 consequ triton ( moon ) surfac relat young obvious impact crater complex geolog histori reveal intric cryovolcan tecton terrain
 part triton ( moon ) surfac geyser erupt sublim nitrogen gas contribut tenuous nitrogen atmospher less 1 70 000 pressur earth atmospher sea level
 tropic cyclon rapid rotat storm system character low pressur center close low level atmospher circul strong wind spiral arrang thunderstorm produc heavi rain
@@ -12903,7 +12766,7 @@ turbul caus excess kinet energi part fluid flow overcom damp effect fluid viscos
 turbul reason turbul easier creat low viscos fluid difficult high viscous fluid
 turbul general term turbul flow unsteadi vortic appear mani size interact consequ drag due friction effect increas
 turbul would increas energi need pump fluid pipe instanc
-howev turbul effect also exploit aerodynam spoiler aircraft deliber spoil laminar flow increas drag reduc lift
+howev turbul effect also exploit devic aerodynam spoiler aircraft deliber spoil laminar flow increas drag reduc lift
 turbul onset turbul predict dimensionless constant call reynold number calcul balanc kinet energi viscous damp fluid flow
 turbul howev turbul long resist detail physic analysi interact within turbul creat complex situat
 turbul richard feynman describ turbul import unsolv problem classic physic
@@ -13089,9 +12952,6 @@ van der waal equat van der waal equat state name johann diderik van der waal bas
 van der waal equat ideal gas law treat gas molecul point particl interact except elast collis
 word van der waal equat take space attract repel gas molecul
 account volum real gas molecul take van der waal equat replac v ideal gas law v b b volum per mole occupi molecul
-van der waal equat lead p v b r displaystyl p v b rt second modif made ideal gas law account fact gas molecul fact attract real gase therefor compress ideal gase
-van der waal provid intermolecular attract ad observ pressur p equat state term v 2 displaystyl v 2 constant whose valu depend gas
-van der waal equat therefor written p v 2 v b r displaystyl p v 2 v b rt also written p n 2 v 2 v n b n r displaystyl p 2 v 2 v nb nrt vm molar volum gas r univers gas constant temperatur p pressur v volum
 molar volum vm larg b becom neglig comparison vm vm2 becom neglig respect p van der waal equat reduc ideal gas law pvm rt
 avail via tradit deriv mechan equat state via deriv base statist thermodynam latter provid partit function system allow thermodynam function specifi
 success approxim behavior real fluid van der waal equat critic temperatur qualit reason liquid low pressur gaseous state low temperatur
@@ -13129,7 +12989,6 @@ probabl theori statist varianc expect squar deviat random variabl varianc mean
 inform varianc measur far set random number spread averag valu
 varianc central role statist idea use includ descript statist statist infer hypothesi test good fit mont carlo sampl
 varianc import tool scienc statist analysi data common
-varianc squar standard deviat second central moment distribut covari random variabl varianc often repres σ 2 displaystyl sigma 2 2 displaystyl 2 var x displaystyl operatornam var x
 vascular cambium also call main cambium wood cambium bifaci cambium plural cambia plant tissu locat xylem phloem stem root vascular plant
 vascular cambium cylind unspeci meristem cell divid form secondari vascular tissu
 vascular cambium sourc secondari xylem growth inward toward pith secondari phloem growth outward bark
@@ -13181,15 +13040,11 @@ plan propos rover complex mission hinder venus hostil surfac condit
 appendix vermiform appendix also cecal caecal appendix vermix vermiform process blind end tube connect cecum develop embryo
 vermiform appendix cecum pouchlik structur colon locat junction small larg intestin
 vermiform appendix term vermiform come latin mean worm shape
-mechan virial theorem provid general equat relat averag time total kinet energi displaystyl left langl right rangl stabl system consist n particl bound potenti forc total potenti energi v tot displaystyl left langl v text tot right rangl angl bracket repres averag time enclos quantiti
-mathemat theorem state 1 2 k 1 n f k r k displaystyl left langl right rangl frac 1 2 sum k 1 n left langl mathbf f k cdot mathbf r k right rangl fk repres forc kth particl locat posit rk
 word virial right hand side equat deriv vis latin word forc energi given virial theorem technic definit rudolf clausius 1870
 signific virial theorem allow averag total kinet energi calcul even complic system defi exact solut consid statist mechan averag total kinet energi relat temperatur system equipartit theorem
 howev virial theorem depend notion temperatur hold even system thermal equilibrium
 virial theorem general various way notabl tensor form
 forc two particl system result potenti energi v r αr n proport power n inter particl distanc r virial theorem take simpl form 2 n v tot
-virial theorem displaystyl 2 langl rangl n langl v text tot rangl
-virial theorem thus twice averag total kinet energi displaystyl left langl right rangl equal n time averag total potenti energi v tot displaystyl left langl v text tot right rangl
 virial theorem wherea v r repres potenti energi two particl vtot repres total potenti energi system e sum potenti energi v r pair particl system
 common exampl system star held togeth virial theorem graviti n equal 1
 although virial theorem depend averag total kinet potenti energi present postpon averag last step
@@ -13353,7 +13208,6 @@ conceptu vortic could determin mark part continuum small neighborhood point ques
 vortic vector would twice mean angular veloc vector particl relat vortic center mass orient accord right hand rule
 vortic quantiti must confus angular veloc particl relat point
 vortic precis vortic pseudovector field ω defin curl rotat flow veloc u vector
-vortic definit express vector analysi formula ω u displaystyl vec omega equiv nabla time vec u del oper
 vortic vortic two dimension flow alway perpendicular plane flow therefor consid scalar field
 vortic vortic relat flow circul line integr veloc along close path classic stoke theorem
 vortic name infinitesim surfac element c normal direct n area da circul dγ along perimet c dot product ω da n ω vortic center c mani phenomena blow candl puff air readili explain term vortic rather basic concept pressur veloc
@@ -13454,7 +13308,6 @@ white dwarf oldest white dwarf still radiat temperatur thousand kelvin
 wien displac law state black bodi radiat curv differ temperatur peak wavelength invers proport temperatur
 shift peak direct consequ planck radiat law describ spectral bright black bodi radiat function wavelength given temperatur
 howev discov wilhelm wien sever year max planck develop general equat describ entir shift spectrum black bodi radiat toward shorter wavelength temperatur increas
-formal wien displac law state spectral radianc black bodi radiat per unit wavelength peak wavelength λmax given λ max b displaystyl lambda text max frac b absolut temperatur kelvin
 b constant proport call wien displac constant equal 2 8977729 17 10 3 k conveni obtain wavelength micromet b 2900 μm k
 wien 's displac law consid peak black bodi emiss per unit frequenc per proport bandwidth one must use differ proport constant
 howev form law remain peak wavelength invers proport temperatur peak frequenc direct proport temperatur
@@ -13731,6 +13584,7 @@ yellowston nation park erupt tremend forc sever time last two million year
 half world geotherm featur yellowston fuel ongo volcan
 lava flow rock volcan erupt cover land area yellowston
 park centerpiec greater yellowston ecosystem largest remain near intact ecosystem earth northern temper zone
+1978 yellowston nation park name world heritag site unesco
 yellowston nation park hundr speci mammal bird fish reptil document includ sever either endang threaten
 yellowston nation park vast forest grassland also includ uniqu speci plant
 yellowston park largest famous megafauna locat continent unit state

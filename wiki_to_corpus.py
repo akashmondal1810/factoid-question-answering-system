@@ -67,6 +67,9 @@ if __name__ == "__main__":
         for s in sents:
             if len(s) < 5:
                 continue
+
+            if "displaystyle" in s:
+                continue
             
             text = sp.wiki_sub(s.strip(),cat)
             text = sp.parse_sentence(text)
