@@ -7,8 +7,7 @@ from sklearn.decomposition import NMF, LatentDirichletAllocation
 import time
 from scipy.sparse import csr_matrix
 import nimfa
-
-
+from wrod2vec_gen import *
 from csv import DictReader, DictWriter
 
 kTARGET_FIELD = 'correctAnswer'
@@ -113,19 +112,10 @@ if __name__ == "__main__":
 ## USING IKI CORPUS
     inputfiletrain = "data/wiki_corpus.txt"
     #inputvocab = "data/vocab.txt"
-# READING IN the sentences, with embeddings, should be 5441   
-
-## have to read in the vocab as well from this corpus. Read how this wiki_corpus is made to find vocab file
-# note: do not do too much further rather thn test topics, if they yield decent ones, then save per-word
-# 10 and 20 to start
 
     train = list((open(inputfiletrain,'r',encoding='utf-8')))
     #vocab = list((open(inputvocab,'r',encoding='utf-8')))
-    ##  NO, DO NOT NEED VOCAB, countvec/ td-df gives feature names. its gotta be the same as vocab
-    # only thing they care about is order
-    # yet, we will read in feature names
-    # while index is not same, we will look it up by word
-    # hence, the dict key should be the word!!
+
     print(len(train))
     N = len(train)
 
@@ -148,56 +138,56 @@ if __name__ == "__main__":
 #    #   scale how much regularization is done, 0.1 means not much, 1 means a lot
 #    # l1_ratio - what is typically 'alpha' in EN discussion, 0 means ridge, 1 means LASSO
     # current set-up --> no Elastic Net params
-#    nmf = NMF(n_components=n_topics, tol=1e-6,max_iter=500, alpha=0.0, l1_ratio=0.0).fit(x_train)
-#   #print_top_words(nmf, feat_names, 10)
-#    exposures = nmf.fit_transform(x_train)
-#    topics = nmf.components_
-#    print(topics.shape) 
-#    print()
+    nmf = NMF(n_components=n_topics, tol=1e-6,max_iter=500, alpha=0.0, l1_ratio=0.0).fit(x_train)
+   #print_top_words(nmf, feat_names, 10)
+    exposures = nmf.fit_transform(x_train)
+    topics = nmf.components_
+    print(topics.shape) 
+    print()
+
+ ## TRYING TO SAVE TO FILES NOW, do topics_per_sent in logreg file
+    np.savetxt("atopics_nmf_noreg.csv",topics,delimiter=",")
+    np.savetxt("aexposures_nmf_noreg.csv",exposures,delimiter=",")
+    # calling topic - top words function
+    export_topics("anmf_noreg_topicwords.txt",topics,feat_names,20)
+    word_topics("anmf_noreg_words.csv",topics,feat_names,20)
+    ## WRITING TO FILE WITH TOP WORDS IN TOPICS, ALONG WITH THE VALUE IN BETA/TOPICS VECT
+    print("#\n Done NMF, sklearn, no EN \n #")
+    
+    
+    nmf = NMF(n_components=n_topics, tol=1e-6,max_iter=500, alpha=0.9, l1_ratio=1.0).fit(x_train)
+#    print_top_words(nmf, feat_names, 10)
+    exposures = nmf.fit_transform(x_train)
+    topics = nmf.components_
+ 
+    np.savetxt("atopics_nmf_lasso.csv",topics,delimiter=",")
+    np.savetxt("aexposures_nmf_lasso.csv",exposures,delimiter=",")
+    export_topics("anmf_lasso_topicwords.txt",topics,feat_names,20)
+    word_topics("anmf_lasso_words.csv",topics,feat_names,20)
+    print("#\n Done NMF, sklearn, LASSO, a lot of regualrization\n #")
+#    
 #
-# ## TRYING TO SAVE TO FILES NOW, do topics_per_sent in logreg file
-#    np.savetxt("atopics_nmf_noreg.csv",topics,delimiter=",")
-#    np.savetxt("aexposures_nmf_noreg.csv",exposures,delimiter=",")
-#    # calling topic - top words function
-#    export_topics("anmf_noreg_topicwords.txt",topics,feat_names,20)
-#    word_topics("anmf_noreg_words.csv",topics,feat_names,20)
-#    ## WRITING TO FILE WITH TOP WORDS IN TOPICS, ALONG WITH THE VALUE IN BETA/TOPICS VECT
-#    print("#\n Done NMF, sklearn, no EN \n #")
-#    
-#    
-#    nmf = NMF(n_components=n_topics, tol=1e-6,max_iter=500, alpha=0.9, l1_ratio=1.0).fit(x_train)
-##    print_top_words(nmf, feat_names, 10)
-#    exposures = nmf.fit_transform(x_train)
-#    topics = nmf.components_
-# 
-#    np.savetxt("atopics_nmf_lasso.csv",topics,delimiter=",")
-#    np.savetxt("aexposures_nmf_lasso.csv",exposures,delimiter=",")
-#    export_topics("anmf_lasso_topicwords.txt",topics,feat_names,20)
-#    word_topics("anmf_lasso_words.csv",topics,feat_names,20)
-#    print("#\n Done NMF, sklearn, LASSO, a lot of regualrization\n #")
-##    
-##
-#    nmf = NMF(n_components=n_topics, tol=1e-6,max_iter=500, alpha=0.9, l1_ratio=0.0).fit(x_train)
-#    #print_top_words(nmf, feat_names, 20)
-#    exposures = nmf.fit_transform(x_train)
-#    topics = nmf.components_
-#    np.savetxt("atopics_nmf_ridge.csv",topics,delimiter=",")
-#    np.savetxt("aexposures_nmf_ridge.csv",exposures,delimiter=",")
-#    export_topics("anmf_ridge_topicwords.txt",topics,feat_names,20)
-#    word_topics("anmf_rdge_words.csv",topics,feat_names,20)
-#    print("#\n Done NMF, sklearn, RIDGE, a lot of regualrization\n #")
-#    
-##        
-#    nmf = NMF(n_components=n_topics, tol=1e-6,max_iter=500, alpha=0.9, l1_ratio=0.5).fit(x_train)
-##    print_top_words(nmf, feat_names, 20)
-#    exposures = nmf.fit_transform(x_train)
-#    topics = nmf.components_
-#    np.savetxt("atopics_nmf_en.csv",topics,delimiter=",")
-#    np.savetxt("aexposures_nmf_en.csv",exposures,delimiter=",")
-#    export_topics("anmf_en_topicwords.txt",topics,feat_names,20)
-#    word_topics("anmf_en_words.csv",topics,feat_names,20)
-#    print("#\n Done NMF, sklearn, EN = even, less regualrization\n #")
-#    
+    nmf = NMF(n_components=n_topics, tol=1e-6,max_iter=500, alpha=0.9, l1_ratio=0.0).fit(x_train)
+    #print_top_words(nmf, feat_names, 20)
+    exposures = nmf.fit_transform(x_train)
+    topics = nmf.components_
+    np.savetxt("atopics_nmf_ridge.csv",topics,delimiter=",")
+    np.savetxt("aexposures_nmf_ridge.csv",exposures,delimiter=",")
+    export_topics("anmf_ridge_topicwords.txt",topics,feat_names,20)
+    word_topics("anmf_rdge_words.csv",topics,feat_names,20)
+    print("#\n Done NMF, sklearn, RIDGE, a lot of regualrization\n #")
+    
+#        
+    nmf = NMF(n_components=n_topics, tol=1e-6,max_iter=500, alpha=0.9, l1_ratio=0.5).fit(x_train)
+#    print_top_words(nmf, feat_names, 20)
+    exposures = nmf.fit_transform(x_train)
+    topics = nmf.components_
+    np.savetxt("atopics_nmf_en.csv",topics,delimiter=",")
+    np.savetxt("aexposures_nmf_en.csv",exposures,delimiter=",")
+    export_topics("anmf_en_topicwords.txt",topics,feat_names,20)
+    word_topics("anmf_en_words.csv",topics,feat_names,20)
+    print("#\n Done NMF, sklearn, EN = even, less regualrization\n #")
+    
 #######################################################################################
 #
 ####################################################################################
@@ -305,4 +295,4 @@ if __name__ == "__main__":
 #        print(" ".join([feat_names[i]
 #                        for i in topicrow.argsort()[:-n_top_words - 1:-1]]))
 #    print()
-    print(" # \n Not writing this for nimfa, Euclidean \n #")
+#    print(" # \n Not writing this for nimfa, Euclidean \n #")

@@ -11,7 +11,7 @@ from csv import DictReader, DictWriter
 # outputs: file of word, ordered clsuter, probs, centroids, varaince
 # in one csv file
 
-def word_clusters(out_file,vocab,probs,means,covs):
+def word_clusters(out,vocab,probs,means,covs):
     # create output dictionary of words, order cluster idx, probs, centroids, (not saving varaince atm)
     word_clus = [dict() for x in range(len(vocab))]
     
@@ -21,15 +21,20 @@ def word_clusters(out_file,vocab,probs,means,covs):
         top_id = list()
         for idx in reversed(np.argsort(clus_prob)):
             top_id.append(idx)
-        word_clus[ii] = {'word':word,'clusterorder':top_id,'clusprob':clus_prob[top_id],'clusmeans':means[top_id]};
+        word_clus[ii] = {'word':word,'clusterorder':top_id,'clusprob':list(clus_prob[top_id])} # 'clusmeans':means[top_id]};
         # excluding variances now - is it needed?
     
     keys = word_clus[0].keys()
  #  print(keys)
+    out_file = out + '.csv' # for dictionary
     with open(out_file,'w',newline='',encoding='utf-8') as output: # trying not wb
         f = DictWriter(output,keys)
         f.writeheader()
         f.writerows(word_clus)
+    
+    out2 = out + '_means.txt' # for text file of cluster means
+    np.savetxt(out2,means,delimiter=",") # each row is a cluster mean, row idx is clsuter idx (so not ordered)
+    # use this to grab only cluster means needed, saves memory
 
 ## MAIN
 if __name__ == "__main__":
@@ -56,7 +61,8 @@ if __name__ == "__main__":
 
 # from this, run on vectors for GMM
 # LOOK UP GMM STUFF ON THEIR HELP SITE
-    gmm = GaussianMixture(n_components=20) # all other options should be defaults
+    ncom = 20
+    gmm = GaussianMixture(n_components=ncom,max_iter=500) # all other options should be defaults
     gmm.fit(train)
     weights = gmm.weights_ # these are weights of GMM
 #    print(len(weights))
@@ -67,15 +73,17 @@ if __name__ == "__main__":
     print("done first step")
 
 # write to a csv file
-    out_file = 'gmm_results.csv'
+    out_file = 'gmm_results_'+str(ncom)#.csv'
     word_clusters(out_file,vocab,probs,means,covs)
-    
-    gmm = BayesianGaussianMixture(n_components=20,max_iter=200) # they could potentially zero out some compoennts 
+
+
+    ncom = 25
+    gmm = BayesianGaussianMixture(n_components=ncom,max_iter=500) # they could potentially zero out some compoennts 
     gmm.fit(train)
     means = gmm.means_
     probs = gmm.predict_proba(train)
     covs = gmm.covariances_
-    out_file = 'gmm_results_var30.csv'
+    out_file = 'gmm_results_var_'+str(ncom)#.csv'
     word_clusters(out_file,vocab,probs,means,covs)
 
 
