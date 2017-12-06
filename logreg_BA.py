@@ -21,22 +21,23 @@ kD = 'answerD'
 
 class lr_classifier():
 
-    def __init__(self, c=1, pen='l2'):
+    def __init__(self, w2v_model, c=1, pen='l2'):
         self.lr = LogisticRegression(C=c, penalty=pen)
+        self.model = w2v_model
 
 
-    def form_vector(self, question, answer):
-        return np.hstack((model.sv(question), model.sv(answer)))
+    def form_vector(self, question, answer, sv):
+        return np.hstack((sv(question), sv(answer)))
         
 
-    def form_all_vectors(self, data):
+    def form_all_vectors(self, data, sv):
         label_list = ["A", "B", "C", "D"]
         x_train = []
         y_train = []
         for x in data:
             for label in label_list:
                 alabel = 'answer' + label
-                v = self.form_vector(x[kTEXT_FIELD], x[alabel])
+                v = self.form_vector(x[kTEXT_FIELD], x[alabel], sv)
                 x_train.append(v)
 
                 if label == x['correctAnswer']:
@@ -85,9 +86,9 @@ class lr_classifier():
 
 if __name__ == "__main__":
 
-    n = 0.7  # train validation split
+    n = 0.8  # train validation split
 
-    train = list(DictReader(open("data/sci_train.csv", 'r')))
+    train = list(DictReader(open("data/filtered_train.csv", 'r')))
     extra_train = list(DictReader(open("data/extra_train.csv", 'r')))
     # test = list(DictReader(open("data/sci_test.csv", 'r')))
     # sample = list(DictReader(open("data/sci_sample.csv", 'r')))
@@ -116,11 +117,11 @@ if __name__ == "__main__":
         print("New word2vec data created.")
 
 
-    lr = lr_classifier()
+    lr = lr_classifier(model)
 
     print("Forming vectors...")
-    x_train, y_train = lr.form_all_vectors(train)
-    x_test, y_test = lr.form_all_vectors(test)
+    x_train, y_train = lr.form_all_vectors(train, model.sv)
+    x_test, y_test = lr.form_all_vectors(test, model.sv)
 
 
     print("Training logreg...")
