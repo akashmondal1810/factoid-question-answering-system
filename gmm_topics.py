@@ -21,7 +21,7 @@ def word_clusters(out,vocab,probs,means,covs):
         top_id = list()
         for idx in reversed(np.argsort(clus_prob)):
             top_id.append(idx)
-        word_clus[ii] = {'word':word,'clusterorder':top_id,'clusprob':list(clus_prob[top_id])} # 'clusmeans':means[top_id]};
+        word_clus[ii] = {'word':word,'topicid':top_id,'topicval':list(clus_prob[top_id])} # 'clusmeans':means[top_id]};
         # excluding variances now - is it needed?
     
     keys = word_clus[0].keys()
@@ -73,7 +73,7 @@ if __name__ == "__main__":
     print("done first step")
 
 # write to a csv file
-    out_file = 'gmm_results_'+str(ncom)#.csv'
+    out_file = 'data/gmm_results_'+str(ncom)#.csv'
     word_clusters(out_file,vocab,probs,means,covs)
 
 
@@ -83,7 +83,7 @@ if __name__ == "__main__":
     means = gmm.means_
     probs = gmm.predict_proba(train)
     covs = gmm.covariances_
-    out_file = 'gmm_results_var_'+str(ncom)#.csv'
+    out_file = 'data/gmm_results_var_'+str(ncom)#.csv'
     word_clusters(out_file,vocab,probs,means,covs)
 
 

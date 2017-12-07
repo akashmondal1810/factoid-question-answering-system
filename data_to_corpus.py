@@ -33,10 +33,13 @@ kD = 'answerD'
 
 class sentence_parser():
 
-    def __init__(self):
-        self.stemmer = SnowballStemmer("english")
+    def __init__(self,stemmer=SnowballStemmer("english"),remove_stopwords=True):
+        self.stemmer = stemmer
 #        self.stemmer = PorterStemmer()
-        self.exclude = set(stopwords.words('english'))
+        if remove_stopwords:
+            self.exclude = set(stopwords.words('english'))
+        else:
+            self.exclude = set()
         #punc = ["'", "''", '(', ')', ',', '.', '...', ';', ':', '[', ']', '``']
         punc = []
 
