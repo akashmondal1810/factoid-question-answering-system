@@ -54,14 +54,10 @@ if __name__ == "__main__":
     vocab = model.vocab #()   
     #print(vocab) # so voacb is all word of w2v model
     train = [model.wv(x) for x in vocab]
-    #print(train[0])
-   # print(len(vocab))
-   # so vocab and train of same length, train is w2v represnetations
 
 
-# from this, run on vectors for GMM
-# LOOK UP GMM STUFF ON THEIR HELP SITE
-    ncom = 20
+# GMM
+    ncom = 25
     gmm = GaussianMixture(n_components=ncom,max_iter=500) # all other options should be defaults
     gmm.fit(train)
     weights = gmm.weights_ # these are weights of GMM
@@ -73,17 +69,17 @@ if __name__ == "__main__":
     print("done first step")
 
 # write to a csv file
-    out_file = 'data/gmm_results_'+str(ncom)#.csv'
+    out_file = 'data/fin_gmm_results_'+str(ncom)#.csv'
     word_clusters(out_file,vocab,probs,means,covs)
 
-
-    ncom = 25
+# variational GMM
+    ncom = 20
     gmm = BayesianGaussianMixture(n_components=ncom,max_iter=500) # they could potentially zero out some compoennts 
     gmm.fit(train)
     means = gmm.means_
     probs = gmm.predict_proba(train)
     covs = gmm.covariances_
-    out_file = 'data/gmm_results_var_'+str(ncom)#.csv'
+    out_file = 'data/fin_gmm_results_var_'+str(ncom)#.csv'
     word_clusters(out_file,vocab,probs,means,covs)
 
 
