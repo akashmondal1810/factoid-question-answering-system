@@ -32,15 +32,16 @@ full_glove_path, = download_and_unzip(
   'http://nlp.stanford.edu/data/', 'glove.840B.300d.zip',
   'glove.840B.300d.txt')
 
-train_path, dev_path, test_path = download_and_unzip(
-  'http://nlp.stanford.edu/sentiment/', 'trainDevTestTrees_PTB.zip', 
-  'trees/train.txt', 'trees/dev.txt', 'trees/test.txt')
+# Toy dataset , just to check the model
+train_path = "data/train_tree.txt"
+dev_path =  "data/dev_tree.txt"
+test_path = "data/test_tree.txt"
 
 filtered_glove_path = os.path.join(data_dir, 'filtered_glove.txt')
 
 def filter_glove():
   vocab = set()
-  # Download the full set of unlabeled sentences separated by '|'.
+ 
   sentence_path, = download_and_unzip(
     'http://nlp.stanford.edu/~socherr/', 'stanfordSentimentTreebank.zip', 
     'stanfordSentimentTreebank/SOStr.txt')
@@ -49,7 +50,7 @@ def filter_glove():
 
   with codecs.open(sentence_path, encoding='utf-8') as f:
     for line in f:
-      # Drop the trailing newline and strip backslashes. Split into words.
+      
       vocab.update(line.strip().replace('\\', '').split('|'))
   nread = 0
   nwrote = 0
@@ -68,7 +69,7 @@ def filter_glove():
 filter_glove()
 
 def load_embeddings(embedding_path):
-  """Loads embedings, returns weight matrix and dict from words to indices."""
+  
   print('loading word embeddings from %s' % embedding_path)
   weight_vectors = []
   word_idx = {}
@@ -77,11 +78,10 @@ def load_embeddings(embedding_path):
       word, vec = line.split(u' ', 1)
       word_idx[word] = len(weight_vectors)
       weight_vectors.append(np.array(vec.split(), dtype=np.float32))
-  # Annoying implementation detail; '(' and ')' are replaced by '-LRB-' and
-  # '-RRB-' respectively in the parse-trees.
+  
   word_idx[u'-LRB-'] = word_idx.pop(u'(')
   word_idx[u'-RRB-'] = word_idx.pop(u')')
-  # Random embedding vector for unknown words.
+ 
   weight_vectors.append(np.random.uniform(
       -0.05, 0.05, weight_vectors[0].shape).astype(np.float32))
   return np.stack(weight_vectors), word_idx
@@ -90,7 +90,7 @@ weight_matrix, word_idx = load_embeddings(filtered_glove_path)
 
 def load_trees(filename):
   with codecs.open(filename, encoding='utf-8') as f:
-    # Drop the trailing newline and strip \s.
+    
     trees = [line.strip().replace('\\', '') for line in f]
     print('loaded %s trees from %s' % (len(trees), filename))
     return trees
@@ -100,22 +100,10 @@ dev_trees = load_trees(dev_path)
 test_trees = load_trees(test_path)
 
 class BinaryTreeLSTMCell(tf.contrib.rnn.BasicLSTMCell):
-  """LSTM with two state inputs.
-
-  This is the model described in section 3.2 of 'Improved Semantic
-  Representations From Tree-Structured Long Short-Term Memory
-  Networks' <http://arxiv.org/pdf/1503.00075.pdf>, with recurrent
-  dropout as described in 'Recurrent Dropout without Memory Loss'
-  <http://arxiv.org/pdf/1603.05118.pdf>.
-  """
+  
 
   def __init__(self, num_units, keep_prob=1.0):
-    """Initialize the cell.
-
-    Args:
-      num_units: int, The number of units in the LSTM cell.
-      keep_prob: Keep probability for recurrent dropout.
-    """
+   
     super(BinaryTreeLSTMCell, self).__init__(num_units)
     self._keep_prob = keep_prob
 
@@ -146,7 +134,7 @@ class BinaryTreeLSTMCell(tf.contrib.rnn.BasicLSTMCell):
 
 keep_prob_ph = tf.placeholder_with_default(1.0, [])
 
-lstm_num_units = 300  # Tai et al. used 150, but our regularization strategy is more effective
+lstm_num_units = 300  
 tree_lstm = td.ScopedLayer(
       tf.contrib.rnn.DropoutWrapper(
           BinaryTreeLSTMCell(lstm_num_units, keep_prob=keep_prob_ph),
@@ -162,7 +150,7 @@ word_embedding = td.Embedding(
 embed_subtree = td.ForwardDeclaration(name='embed_subtree')
 
 def logits_and_state():
-  """Creates a block that goes from tokens to (logits, state) tuples."""
+ 
   unknown_idx = len(word_idx)
   lookup_word = lambda word: word_idx.get(word, unknown_idx)
   
@@ -315,3 +303,4 @@ print('    loss: [%s]' % ' '.join(
 print('accuracy: [%s]' % ' '.join(
   '%s: %.2f' % (name.rsplit('_', 1)[0], v * 100)
   for name, v in test_results if name.endswith('_hits')))
+
